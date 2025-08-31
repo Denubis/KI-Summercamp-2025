@@ -1,0 +1,300 @@
+---
+title: "Day 1: Introduction to Generative AI"
+subtitle: "Surface vs. Capability | Confidence vs. Accuracy"
+author: "Dr. Brian Ballsun-Stanton"
+date: "8 September 2025"
+format:
+  revealjs:
+    slide-number: true
+    chalkboard: true
+    theme: [default, ../reveal-custom.scss]
+    footer: "AI Summercamp 2025 - Basic Course"
+    preview-links: auto
+    transition: slide
+    background-transition: fade
+    highlight-style: github
+    navigation-mode: vertical
+---
+
+## Welcome! {.center}
+
+### AI Summercamp 2025
+
+**Techniques and Ethics of Generative AI**
+
+Basic Course - Day 1
+
+::: {.notes}
+Begrüßung und Vorstellung
+- Persönlicher Hintergrund
+- Erwartungen an den Kurs
+- Gemeinsame Lernreise
+:::
+
+---
+
+## Agenda for Today
+
+### Session 1: Surface vs. Capability (09:00-10:30)
+- What LLMs appear to be
+- What LLMs actually are
+- **Activity:** Exploring System Prompts
+
+### ☕ Break (10:30-11:00)
+
+### Session 2: Confidence vs. Accuracy (11:00-12:30)
+- The illusion of certainty
+- **Activity:** Think-Pair-Share on GPT errors
+- Collective reflection
+
+---
+
+## The Central Question {.center}
+
+> What is the difference between what we **believe** AI is,
+> and what AI **actually** is?
+
+. . .
+
+### Our Approach: Productive Failure
+
+🎯 **Goal:** Break misconceptions through experience
+
+---
+
+## Session 1: Surface vs. Capability
+
+### Exploring the Boundary
+
+:::: {.columns}
+
+::: {.column width="50%"}
+**Surface**
+- Eloquent responses
+- Professional tone
+- Apparent expertise
+- Convincing arguments
+:::
+
+::: {.column width="50%"}
+**Capability**
+- Pattern recognition
+- Statistical prediction
+- Contextual coherence
+- No real "understanding"
+:::
+
+::::
+
+---
+
+## Activity: System Prompts {.smaller}
+
+### Experiment 1: Register Change
+
+```python
+# Try these system prompts:
+
+1. "You are a 17th-century pirate"
+2. "Explain everything as if to a 5-year-old"
+3. "Respond only in haikus"
+```
+
+. . .
+
+### Observation Questions:
+
+- Does **factual accuracy** change?
+- What remains **constant** despite style changes?
+- Where do the **limits** show?
+
+---
+
+## Demo: Pirate Physics {auto-animate=true}
+
+::: {.fragment}
+**Prompt:** "Explain quantum entanglement as a pirate"
+:::
+
+::: {.fragment}
+**Response:** "Arrr, matey! Imagine two parrots on different ships..."
+:::
+
+::: {.fragment .highlight-red}
+⚠️ **Problem:** Style ≠ Substance
+:::
+
+---
+
+## Local Example: Gießen Context
+
+### Task: Ask about local details
+
+:::: {.columns}
+
+::: {.column width="50%"}
+**Try:**
+- "Where is the best Döner in Gießen?"
+- "Explain the route from Selterstor to Philosophikum"
+- "What is the history of the Mathematikum?"
+:::
+
+::: {.column width="50%"}
+**Observe:**
+- Plausible but false details
+- Mixing with other cities
+- Confidence without correctness
+:::
+
+::::
+
+---
+
+## Break: Reflection Moment
+
+### 🤔 What have we discovered?
+
+::: {.incremental}
+1. **Register ≠ Reliability**
+2. **Confidence ≠ Correctness**
+3. **Plausibility ≠ Precision**
+:::
+
+. . .
+
+### ☕ Break: 10:30-11:00
+
+---
+
+## Session 2: Confidence vs. Accuracy
+
+### The Trust Paradox
+
+> LLMs are **always** confident,  
+> but not always **correct**
+
+. . .
+
+### Why is this dangerous?
+
+- Humans trust confident statements
+- No built-in uncertainty communication
+- Hallucinations appear factual
+
+---
+
+## Think-Pair-Share Activity
+
+### Phase 1: Think (5 Min) {.smaller}
+Find a GPT error on a topic you know well
+
+### Phase 2: Pair (10 Min) {.smaller}
+Exchange with your partner:
+- What was the error?
+- How convincingly was it presented?
+- Would a layperson have noticed?
+
+### Phase 3: Share (15 Min) {.smaller}
+Group discussion of the most interesting cases
+
+---
+
+## Example: Historical Hallucinations
+
+::: {.panel-tabset}
+
+### Prompt
+"Tell me about the Battle of Gießen 1796"
+
+### Possible Response
+"The Battle of Gießen on September 16, 1796, was a significant conflict between French Revolutionary troops under General Jourdan..."
+
+### Reality
+There was no Battle of Gießen in 1796 ⚠️
+
+### Lesson
+LLMs invent plausible historical events
+
+:::
+
+---
+
+## Observable Behavior Change
+
+### Before this session:
+- "ChatGPT said..."
+- Unchecked adoption
+- Trust in authority
+
+### After this session:
+- "According to ChatGPT, but I should verify..."
+- Critical evaluation
+- Healthy skepticism
+
+---
+
+## Salvage Protocols
+
+### If confused:
+→ Simpler example (2+2=?)
+
+### If too easy:
+→ More complex domain (quantum physics in Hessian dialect)
+
+### If time is short:
+→ Take away one central insight
+
+---
+
+## Summary Day 1
+
+:::: {.columns}
+
+::: {.column width="50%"}
+### Learned ✅
+- Surface ≠ Substance
+- Confidence ≠ Correctness
+- Style ≠ Understanding
+:::
+
+::: {.column width="50%"}
+### Takeaways 🎯
+- Critical questioning
+- Productive failure
+- Observable changes
+:::
+
+::::
+
+---
+
+## Homework & Preparation
+
+### For tomorrow:
+1. Find **one** convincing LLM error
+2. Document the exact prompts
+3. Consider: Why was it convincing?
+
+### Reading (optional):
+- [Link to materials]
+- Course State Documentation
+
+---
+
+## Questions? {.center}
+
+### Contact:
+📧 brian.ballsun-stanton@mq.edu.au
+
+### Resources:
+🔗 [GitHub Repository]  
+📚 [Course Materials]
+
+### See you tomorrow! 👋
+
+::: {.notes}
+Closing:
+- Clarify any open questions
+- Set expectations for tomorrow
+- Encourage experimentation
+:::

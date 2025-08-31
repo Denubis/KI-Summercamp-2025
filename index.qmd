@@ -1,0 +1,96 @@
+---
+title: "AI Summercamp 2025"
+subtitle: "Techniques and Ethics of Generative AI"
+author: "Dr. Brian Ballsun-Stanton (Macquarie University)"
+date: "8-26 September 2025"
+toc: true
+---
+
+## Welcome
+
+Welcome to the **AI Summercamp 2025** at Justus-Liebig-Universität Gießen!
+
+This three-week intensive course explores the epistemological boundaries between what students believe LLMs are versus what they actually are. Human judgment remains central throughout.
+
+## Course Structure
+
+### Basic Course (8-12 September)
+
+**Time:** Monday-Friday, 09:00-12:30  
+**Location:** Seminargebäude II, Room 103, Phil I  
+**Language:** English  
+**Instructor:** Dr. Brian Ballsun-Stanton
+
+**Week Overview:**
+
+- **Day 1:** Introduction & System Prompts
+  - Session 1: Surface vs. Capability Boundary
+  - Session 2: Confidence vs. Accuracy
+  
+- **Day 2:** Basic Theory & Activities
+  - Session 3: Basic Theory
+  - Session 4: AI as Tool vs. AI as Intelligence
+  
+- **Day 3:** Problems and Biases
+  - Session 5: Reliable vs. Hallucinated Information
+  - Session 6: Model Differences
+  
+- **Day 4:** Advanced Prompting
+  - Session 7: Advanced Prompting Techniques
+  - Session 8: Embeddings, RAG, Fine-tuning
+  
+- **Day 5:** Roleplaying and Scenarios
+  - Session 9: Legal Context Roleplay
+  - Session 10: Wrap-up & Grimoire Compilation
+
+### Advanced Course (15-19 September)
+
+**Time:** Monday-Friday, 09:00-12:30  
+**Location:** Hauptgebäude, Seminarraum 315  
+**Language:** English  
+**Instructor:** Dr. Brian Ballsun-Stanton
+
+**Week Overview:**
+
+- **Day 1:** Anthropic Documentation & Coding Assistance
+- **Day 2:** Test-Driven Development & Transcription
+- **Day 3:** Embeddings & Systematic Literature Review
+- **Day 4:** SillyTavern & Corpus Linguistics
+- **Day 5:** Project Work & Crumple Zone
+
+## Evening Events
+
+### Opening Keynote
+**Christian Uhle** (Philosopher & Author)  
+*"Künstliche Intelligenz und echtes Leben: Wie ändert sich die Rolle des Menschen in unseren Gesellschaften und Arbeitswelten?"*  
+Monday, 8 September, 18:00-20:00  
+Margarete-Bieber-Saal
+
+### Legal Perspectives on AI
+**Dr. Sophie Garling & Yvonne Roßmann** (JUN Legal GmbH)  
+*"Generative KI: Plagiat auf Knopfdruck? – Zwischen Urheberrecht und Innovation"*  
+Tuesday, 16 September, 17:00-19:00  
+Margarete-Bieber-Saal
+
+## Afternoon Workshops
+
+All workshops are open without registration:
+
+- **KI im Alltag: Sehen & verstehen** - Tue, 09.09, 14:00-17:30
+- **VR trifft KI** - Thu, 11.09, 14:00-16:30
+- **Literaturrecherche und Antragsstellung mit KI** - Mon, 15.09, 14:00-16:30
+- **KI-gestützt zum Datenmanagementplan** - Tue, 16.09, 14:00-16:30
+- **Reflexionsorientierter Unterricht in der KI-Welt** - Wed, 17.09, 14:00-17:30
+- **Gestalten mit KI** - Thu, 18.09, 14:00-17:30
+
+## Research Week (22-26 September)
+
+Individual consultation on AI in research with the summer camp team.
+
+## Contact
+
+**Dr. Brian Ballsun-Stanton**  
+Macquarie University  
+📧 [brian.ballsun-stanton@mq.edu.au](mailto:brian.ballsun-stanton@mq.edu.au)
+
+**Official Website:** [AI Summercamp 2025 at DiML](https://www.uni-giessen.de/en/faculties/diml/media/aisummercamp2025/aisummercamp2025)
