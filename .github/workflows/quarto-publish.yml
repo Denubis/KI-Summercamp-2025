@@ -27,7 +27,12 @@ jobs:
         with:
           r-version: '4.3.0'
           
+      - name: Check for R lockfile
+        id: check-renv
+        run: echo "renv-exists=$(test -f renv.lock && echo 'true' || echo 'false')" >> $GITHUB_OUTPUT
+        
       - name: Install R Dependencies
+        if: steps.check-renv.outputs.renv-exists == 'true'
         uses: r-lib/actions/setup-renv@v2
         with:
           cache-version: 1
