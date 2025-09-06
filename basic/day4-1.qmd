@@ -1,0 +1,38 @@
+---
+title: "Day 4 - Session 1: Introduction to Generative AI"
+subtitle: "Surface vs. Capability | Confidence vs. Accuracy"
+author: "Dr. Brian Ballsun-Stanton"
+date: "11 September 2025"
+format:
+  revealjs:
+    slide-number: true
+    chalkboard: true
+    theme: [default, ../reveal-custom.scss]
+    footer: "AI Summercamp 2025 - Basic Course"
+    preview-links: auto
+    transition: slide
+    background-transition: fade
+    highlight-style: github
+    navigation-mode: vertical
+---
+Teaching with: Joss
+
+
+### Day goals and outline
+
+### Show me your prompts! / Grimoire maintenence  
+
+### Discussion: How to keep up
+
+* Who do I read?
+* RSS reader
+* How do I evaluate new models?
+
+### Exercise 13 - Metaprompting
+
+
+### Discussion: What makes a good prompt?
+* Session 7 \- morning \- advanced prompting  
+  * Longer, thorough, prompts  
+  * Underlying principles of prompting  
+  * Lots of playing around  

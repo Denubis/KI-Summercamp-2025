@@ -1,0 +1,62 @@
+---
+title: "Day 1 - Session 2: AI as Drunk Tutor"
+subtitle: "Always confident, usually correct"
+author: "Dr. Brian Ballsun-Stanton"
+date: "8 September 2025"
+format:
+  revealjs:
+    slide-number: true
+    chalkboard: true
+    theme: [default, ../reveal-custom.scss]
+    footer: "AI Summercamp 2025 - Basic Course"
+    preview-links: auto
+    transition: slide
+    background-transition: fade
+    highlight-style: github
+    navigation-mode: vertical
+---
+Teaching with: Sebastian
+
+### Session goals and outline
+
+
+### Activity 3.
+
+Icebreaker with the concept board and sonnet
+
+https://librarycarpentry.github.io/lc-overview/03-jargon-busting.html
+
+### Basic concepts (from llm lecture)
+
+  * These tools are always confident - AI as drunk tutor 
+  * GPT and representative error  
+  * Tokens and the context window  
+  * AI as poor choice of term 
+  * Talk through MQ infographics
+
+### Activity 4
+
+  * German/English cultural translation and explanation, plus multilingual prompting  
+
+### Discussion: Goals for the week
+
+  Goals for the week added to concept board
+
+  * Concluding: asking class what they want to get out of the week, have them enter it into a different space in the grimoire  
+
+### End of day sticky note feedback
+1 thing we did well
+1 thing to improve for tomorrow
+
+
+
+* Day 1, Session 2 \- midday \- basic concepts  
+
+  * Perplexity.vercel.app  
+  * Activity 3: Think, pair, share  
+  * Talk through the two infographics that Jodie produced   
+  * ![][image1]  
+  * The structure of a good prompt (role, goal, task, chain-of-thought)  
+  * Common misconceptions of prompting  
+  * Activity 4: “Show me your prompts\!”   
+    * Iterative prompt feedback, discussion about what they’ve tried in the past and how to improve it  

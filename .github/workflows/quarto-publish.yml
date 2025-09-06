@@ -22,20 +22,20 @@ jobs:
         with:
           version: '1.8.21'
           
-      - name: Install R
-        uses: r-lib/actions/setup-r@v2
-        with:
-          r-version: '4.3.0'
+      # - name: Install R
+      #   uses: r-lib/actions/setup-r@v2
+      #   with:
+      #     r-version: '4.3.0'
           
-      - name: Check for R lockfile
-        id: check-renv
-        run: echo "renv-exists=$(test -f renv.lock && echo 'true' || echo 'false')" >> $GITHUB_OUTPUT
+      # - name: Check for R lockfile
+      #   id: check-renv
+      #   run: echo "renv-exists=$(test -f renv.lock && echo 'true' || echo 'false')" >> $GITHUB_OUTPUT
         
-      - name: Install R Dependencies
-        if: steps.check-renv.outputs.renv-exists == 'true'
-        uses: r-lib/actions/setup-renv@v2
-        with:
-          cache-version: 1
+      # - name: Install R Dependencies
+      #   if: steps.check-renv.outputs.renv-exists == 'true'
+      #   uses: r-lib/actions/setup-renv@v2
+      #   with:
+      #     cache-version: 1
           
       - name: Install Python
         uses: actions/setup-python@v5

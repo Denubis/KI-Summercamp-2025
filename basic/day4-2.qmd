@@ -1,0 +1,32 @@
+---
+title: "Day 4 - Session 2: Introduction to Generative AI"
+subtitle: "Surface vs. Capability | Confidence vs. Accuracy"
+author: "Dr. Brian Ballsun-Stanton"
+date: "11 September 2025"
+format:
+  revealjs:
+    slide-number: true
+    chalkboard: true
+    theme: [default, ../reveal-custom.scss]
+    footer: "AI Summercamp 2025 - Basic Course"
+    preview-links: auto
+    transition: slide
+    background-transition: fade
+    highlight-style: github
+    navigation-mode: vertical
+---
+Teaching with: Joss
+
+
+### Lecture: Successful Failure
+  * How can we break it?
+  - What do we learn from faillure?
+  (and why)
+
+### Exercise 14 - Make RAG fail, make AI fail
+
+### Discussion/Exercise 15 - Annotate our prompts and start collating the grimoire
+
+### End of day sticky note feedback
+1 thing we did well
+1 thing to improve for tomorrow

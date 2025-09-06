@@ -1,0 +1,36 @@
+---
+title: "Day 2 - Session 1: Basic Theory"
+subtitle: "Surface vs. Capability | Confidence vs. Accuracy"
+author: "Dr. Brian Ballsun-Stanton"
+date: "9 September 2025"
+format:
+  revealjs:
+    slide-number: true
+    chalkboard: true
+    theme: [default, ../reveal-custom.scss]
+    footer: "AI Summercamp 2025 - Basic Course"
+    preview-links: auto
+    transition: slide
+    background-transition: fade
+    highlight-style: github
+    navigation-mode: vertical
+---
+Teaching with: Sebastian
+
+### Day goals and outline
+
+### Show me your prompts!
+
+### Activity 5. "Ask me one question at a time"
+
+### Lecture
+
+* Day 2, Session 3, Morning \- Some basic theory  
+  * Setting the scene (asking the right questions)  
+  * Typologies of LLMs  
+  * Rules of thumb
+
+
+
+### Activity 6, build annotated bibliography entry
+  * Activity 5: Pull quotes out of a document to build tailored discussion as per ancient history caligula exercise

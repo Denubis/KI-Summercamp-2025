@@ -1,0 +1,33 @@
+---
+title: "Day 5 - Session 1: Introduction to Generative AI"
+subtitle: "Surface vs. Capability | Confidence vs. Accuracy"
+author: "Dr. Brian Ballsun-Stanton"
+date: "12 September 2025"
+format:
+  revealjs:
+    slide-number: true
+    chalkboard: true
+    theme: [default, ../reveal-custom.scss]
+    footer: "AI Summercamp 2025 - Basic Course"
+    preview-links: auto
+    transition: slide
+    background-transition: fade
+    highlight-style: github
+    navigation-mode: vertical
+---
+Teaching with: Joss
+
+### Day goals and outline
+
+### Show me your prompts! 
+
+
+### Exercise 15 - context/feedback loops with claude and git - working on larger projects
+
+* Session 9 \- morning  
+  * Roleplaying and scenarios  
+  * Activity: Roleplay lite (not using sillytavern, but just setting up the scenario for legal context)  
+  * Activity: Show how sillytavern can enhance from a classroom perspective  
+
+### Discussion - Finalising the grimoire
+

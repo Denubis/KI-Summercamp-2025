@@ -1,0 +1,34 @@
+---
+title: "Day 5 - Session 2: Wrapping up"
+subtitle: "What have we learned?"
+author: "Dr. Brian Ballsun-Stanton"
+date: "12 September 2025"
+format:
+  revealjs:
+    slide-number: true
+    chalkboard: true
+    theme: [default, ../reveal-custom.scss]
+    footer: "AI Summercamp 2025 - Basic Course"
+    preview-links: auto
+    transition: slide
+    background-transition: fade
+    highlight-style: github
+    navigation-mode: vertical
+---
+Joss
+
+Broad understanding of terminology
+
+### Working with other interfaces
+  * Activity: Show how sillytavern can enhance from a classroom perspective  
+  * OpenWebUI
+  * Various services
+
+### Long Discussion: What should we teach the next time we run this class?
+
+
+
+
+Questions, answers, discussion.
+
+Where to go next.

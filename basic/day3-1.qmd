@@ -1,0 +1,39 @@
+---
+title: "Day 3 - Session 1: Problems and Biases"
+subtitle: "Surface vs. Capability | Confidence vs. Accuracy"
+author: "Dr. Brian Ballsun-Stanton"
+date: "10 September 2025"
+format:
+  revealjs:
+    slide-number: true
+    chalkboard: true
+    theme: [default, ../reveal-custom.scss]
+    footer: "AI Summercamp 2025 - Basic Course"
+    preview-links: auto
+    transition: slide
+    background-transition: fade
+    highlight-style: github
+    navigation-mode: vertical
+---
+Teaching with: Sebastian
+
+
+### Show me your prompts! / Grimoire maintenence 
+
+### Lecture
+
+* Absence of Judgement / epistemic humility, what does judgement entail?
+
+### Exercise 9. Zendo
+
+### Discussion: Building our own evals
+
+* Session 5 \- morning \- problems and biases  
+  * What does “judgement” entail?  
+    * Activity: Zendo  
+
+### Exercise 10. Roleplaying
+
+  * Roleplaying and scenarios  
+  * Activity: Roleplay lite (not using sillytavern, but just setting up the scenario for legal context)  
+  * Activity: Show how sillytavern can enhance from a classroom perspective  

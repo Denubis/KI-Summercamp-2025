@@ -1,0 +1,41 @@
+---
+title: "Day 2 - Session 2: Testing Specific Activities"
+subtitle: "Surface vs. Capability | Confidence vs. Accuracy"
+author: "Dr. Brian Ballsun-Stanton"
+date: "9 September 2025"
+format:
+  revealjs:
+    slide-number: true
+    chalkboard: true
+    theme: [default, ../reveal-custom.scss]
+    footer: "AI Summercamp 2025 - Basic Course"
+    preview-links: auto
+    transition: slide
+    background-transition: fade
+    highlight-style: github
+    navigation-mode: vertical
+---
+Teaching with:  Sebastian
+
+### Session goals
+
+### Exercise 7. Working with files
+
+  * AI as Student  
+    * Activity: Explain something you know well to the AI  
+
+### Lecture - common misconceptions
+* Training is not chatting
+* Calculator for words
+* Absence of Judgement / epistemic humility
+
+### Exercise 8. Playing with different models
+
+* Gemini 2.5 pro for transcription
+* Getting 3 different models to ask pointed questions
+
+
+
+### End of day sticky note feedback
+1 thing we did well
+1 thing to improve for tomorrow

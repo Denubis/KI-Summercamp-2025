@@ -1,0 +1,113 @@
+---
+title: "Day 1 - Session 1: Introduction to Generative AI"
+subtitle: "Surface vs. Capability | Confidence vs. Accuracy"
+author: "Dr. Brian Ballsun-Stanton"
+date: "8 September 2025"
+format:
+  revealjs:
+    slide-number: true
+    chalkboard: true
+    theme: [default, ../reveal-custom.scss]
+    footer: "AI Summercamp 2025 - Basic Course"
+    preview-links: auto
+    transition: slide
+    background-transition: fade
+    highlight-style: github
+    navigation-mode: vertical
+---
+
+## Welcome! {.center}
+
+### AI Summercamp 2025
+
+**Techniques and Ethics of Generative AI**
+
+Basic Course - Day 1
+
+---
+
+## Agenda for Today
+
+### Session 1: Icebreaking and Jargonbusting (09:00-10:30)
+
+
+### ☕ Break (10:30-11:00)
+
+### Session 2: The AI as Drunk Tutor (11:00-12:30)
+
+
+---
+
+# Learning Objectives for the Course
+
+1. Understand fundamental concepts of LLMs and their capabilities  
+   - Grasp context windows, tokens, and basic terminology  
+   - Comprehend the confidence/accuracy paradox of LLMs  
+   - Learn about "prompting" as a core skill
+
+2. Develop practical skills in AI tool usage  
+   - Master basic prompting techniques  
+   - Learn to use AI as a learning/explanatory tool  
+   - Understand how to organize and structure information with AI assistance
+
+3. Recognize limitations and risks  
+   - Identify AI confabulation and errors  
+   - Understand the importance of verification  
+   - Learn about model differences and selection
+
+---
+
+
+
+Teaching with: Sebastian
+
+### Intros
+
+Give learning outcomes for the Course
+and learning outcomes for the Day
+
+Who are we, why are we experts, etc
+
+Teach the concept board
+
+Sticky note protocol: green/red -- check for colour blind
+
+
+### Activity 1
+
+Introductions on the concept board
+
+Write an intro on the board
+
+Add questions to the board
+
+Add +1s to the board for questions
+
+Question queue
+
+
+### Starting the grimoire
+
+* Introduction to Mollick's grimoires
+* Showing git flight rules
+* Showing where we can share and annotate prompts
+* Show teaching the unknown paper annotations
+
+### Activity 2.
+
+Getting API keys to everyone, connecting to chatcraft. 
+
+* Connect to sonnet
+* System prompt in rhyme, emoji
+* Competition to make the worst system prompt
+
+
+### Conclusion
+
+Show me your prompts! 
+
+Expectation that they will **play** with these after class ends.
+
+Show ways BBS has played.
+
+ 
