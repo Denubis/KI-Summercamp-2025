@@ -9,7 +9,7 @@ Every exercise exposes an epistemological boundary between what students believe
 
 ## Course Structure
 - **Duration**: 2 weeks (Sept 8-19, 2025)
-- **Format**: 2 sessions/day, 2 hours each (9am-2pm with break)
+- **Format**: 2 sessions/day, 1.5 hours each (9am-12:30pm with break)
 - **Week 1**: Basic Course (Sept 8-12)
 - **Week 2**: Advanced Course (Sept 15-19)
 - **Crumple zones**: End of each week
@@ -133,13 +133,19 @@ Every exercise exposes an epistemological boundary between what students believe
 - [TO MAP: Other dependencies]
 
 ## Open Questions for Next Chat
-1. [ ] What German-specific confabulation example for Session 5?
-2. [ ] Should Advanced Week include homework?
-3. [ ] Project work vs continued instruction for Advanced Friday?
-4. [ ] How to handle mixed expertise in same session?
-5. [ ] Specific boundaries for Sessions 3, 4, 6, 7, 8?
+1. [ ] Specific epistemological boundaries for each Week 1 session
+2. [ ] German-specific confabulation example for Session 5
+3. [ ] Should Advanced Week include homework?
+4. [ ] Project work vs continued instruction for Advanced Friday?
+5. [ ] How to handle mixed expertise in same session?
+6. [ ] Complete boundary definitions for all Advanced Week sessions
+7. [ ] Productive failure triggers for each defined boundary
 
-## Design Principles to Maintain
+## Decisions from This Session
+- **2025-01-11-meta-framework.md**: Single course-state file with refactor principle
+- **2025-01-11-week1-sequence.md**: Interleaved theory/practice with progressive boundaries
+- **Key insight**: Exercises probe edges to define shape (not teaching to center)
+- **Grimoire concept**: Shared prompt collection as continuous documentation
 - Productive failure over success theater
 - Observable behavior over internal states
 - Process documentation over outcome focus
