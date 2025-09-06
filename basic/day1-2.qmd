@@ -1,6 +1,6 @@
 ---
-title: "Day 1 - Session 2: AI as Drunk Tutor"
-subtitle: "Confidence Without Accuracy"
+title: "Day 1 - Session 2: The 'Confident' Assistant"
+subtitle: "System prompts and the drunk tutor problem"
 author: 
   - "Dr Brian Ballsun-Stanton"
   - "Dr Sebastian Busse"
@@ -17,46 +17,151 @@ format:
     highlight-style: github
     navigation-mode: vertical
 ---
-### Session goals and outline
+## Welcome Back!
 
+### Today's Focus
+**The paradox of confidence without accuracy**
 
-### Activity
+### Where We're Going
+- Control output style with system prompts
+- Discover the "drunk tutor" problem
+- Build our jargon-busting glossary
+- Start our annotation practice
 
-Icebreaker with the concept board and sonnet
+---
 
-https://librarycarpentry.github.io/lc-overview/03-jargon-busting.html
+## What We'll Learn This Session
 
-### Basic concepts (from llm lecture)
+By the end of today, you will be able to:
 
-  * These tools are always confident - AI as drunk tutor 
-  * GPT and representative error  
-  * Tokens and the context window  
-  * AI as poor choice of term 
-  * Talk through MQ infographics
+- **Demonstrate**: How system prompts change style but not accuracy
+- **Explain**: Why AI confidence doesn't signal correctness
+- **Identify**: Marketing fluff vs. technical necessity in AI terminology
 
-### Activity
+---
 
-  * German/English cultural translation and explanation, plus multilingual prompting  
+## Exercise: System Prompts and Copy Editing (35 min)
 
-### Discussion: Goals for the week
+### Your Task
+1. Find a page of your own writing (email, report, anything)
+2. Ask Claude to copy edit it three times with different system prompts
+3. Compare what changes and what doesn't
 
-  Goals for the week added to concept board
+### System Prompt Variations
 
-  * Concluding: asking class what they want to get out of the week, have them enter it into a different space in the grimoire  
+TODO
 
-### End of day sticky note feedback
-1 thing we did well
-1 thing to improve for tomorrow
+### User prompt
 
+TODO
 
+Put up a green sticky when you've completed all three variations. Pink sticky if you need a hand.
 
-* Day 1, Session 2 \- midday \- basic concepts  
+---
 
-  * Perplexity.vercel.app  
-  * Activity 3: Think, pair, share  
-  * Talk through the two infographics that Jodie produced   
-  * ![][image1]  
-  * The structure of a good prompt (role, goal, task, chain-of-thought)  
-  * Common misconceptions of prompting  
-  * Activity 4: “Show me your prompts\!”   
-    * Iterative prompt feedback, discussion about what they’ve tried in the past and how to improve it  
+## What Did You Notice?
+
+### Style Changes
+- Tone and register shift dramatically
+- Emoji density varies
+- Formality adjusts
+
+### What Stays Same
+- Factual claims (right or wrong)
+- Core suggestions
+- Confidence level
+
+---
+
+## The Drunk Tutor Problem (15 min)
+
+> "Always confident, usually correct"
+
+### What This Means
+- No correlation between tone and truth
+- Professional language can mask errors
+- Confidence remains constant regardless of knowledge
+
+### Why This Matters
+You cannot use style as a proxy for accuracy.
+
+---
+
+## Confabulation in action
+
+(TODO LLM lecture slides "General Purpose Transformer" example)
+
+---
+
+## Jargon Busting (20 min)
+
+### Let's Build Our Glossary
+
+On the Conceptboard, add terms you've encountered:
+- LLM, API, token, context window...
+- Hallucination, temperature, fine-tuning...
+- AGI, singularity, emergence...
+
+Together we'll sort:
+✓ Technical necessities  
+✗ Marketing buzzwords  
+? Contested concepts
+
+---
+
+## Your First Annotation Task
+
+### Tonight's Homework
+1. Read: "ChatGPT is Bullshit" (Hicks 2024)
+   - https://link.springer.com/article/10.1007/s10676-024-09775-5
+2. Use the following prompt to help with the paper:
+
+> Hi Claude.
+> Today is the first day of class. My teacher assigned me ChatGPT is Bullshit by Hicks et al to read. Can you help me work through this text, section by section, and talk with me about each section. My teacher said to get you to force me to explain what the point of each section is before we continue. Specifically, ask me one pointed and specific question at a time until you think that I understand the section at hand. My first language is German, so please provide definitions in both languages for key terms and concepts, especially where it looks like I don't understand.
+> To begin, functionally decompose this task and give me a readback of our interaction patterns.
+
+3. Print and annotate your prompts:
+   - Pink highlighter: what didn't work
+   - Blue highlighter: what was effective
+   - Pen: notes on why
+
+### Tomorrow Morning
+We'll share these in "Show me your prompts!"
+
+---
+
+## Looking Ahead
+
+### Tomorrow Morning: Basic Prompting
+- Your first "Show me your prompts" session
+- Rules of thumb for effective prompting
+- Building context windows intentionally
+
+### Tomorrow Midday: Metaprompting
+- Getting AI to write its own prompts
+- The epistemic humility problem
+- Why AI can't judge its own capabilities
+
+---
+
+## Key Takeaways
+
+1. **Control exists** - but only over style and approach, not accuracy
+2. **Confidence is constant** - regardless of correctness
+3. **Your judgment matters** - AI won't tell you when it's wrong
+
+### Remember
+The goal isn't to memorize perfect prompts.
+It's to develop intuition about what works and why.
+
+---
+
+## Resources for Tonight
+
+- Paper link: https://link.springer.com/article/10.1007/s10676-024-09775-5
+- Annotation example: https://zenodo.org/records/15583013 page 11
+- Annotation guide: Focus on YOUR prompts, not AI output
+- Questions? Post in Conceptboard for tomorrow
+
+See you at 9:00 tomorrow with your annotated prompts!
+

@@ -1,6 +1,6 @@
 ---
-title: "Day 1 - Session 1: Orientation and Setup"
-subtitle: "Who we are, questions, making sure everything works"
+title: "Day 1 - Session 1: Welcome and Getting Started"
+subtitle: "Can we control AI output?"
 author: 
   - "Dr Brian Ballsun-Stanton"
   - "Dr Sebastian Busse"
@@ -18,98 +18,119 @@ format:
     navigation-mode: vertical
 ---
 
-## Welcome! {.center}
-
-### AI Summercamp 2025
-
-**Techniques and Ethics of Generative AI**
-
-Basic Course - Day 1
-
----
-
-## Agenda for Today
-
-### Session 1: Icebreaking and Jargonbusting (09:00-10:30)
 
 
-### ☕ Break (10:30-11:00)
+## Welcome to AI Summercamp!
 
-### Session 2: The AI as Drunk Tutor (11:00-12:30)
+### Today's Big Question
+**Can we control AI output?**
 
+### This Morning
+- Get to know each other
+- Set up our tools
+- Define your learning goals with AI assistance
+- Start building our shared "grimoire"
 
 ---
 
-# Learning Objectives for the Course
+## What We'll Learn This Session
 
-1. Understand fundamental concepts of LLMs and their capabilities  
-   - Grasp context windows, tokens, and basic terminology  
-   - Comprehend the confidence/accuracy paradox of LLMs  
-   - Learn about "prompting" as a core skill
+By the end of this morning, you will be able to:
 
-2. Develop practical skills in AI tool usage  
-   - Master basic prompting techniques  
-   - Learn to use AI as a learning/explanatory tool  
-   - Understand how to organize and structure information with AI assistance
-
-3. Recognize limitations and risks  
-   - Identify AI confabulation and errors  
-   - Understand the importance of verification  
-   - Learn about model differences and selection
+- **Do**: Navigate Conceptboard and connect to AI tools
+- **Explain**: What a "grimoire" is and why we're building one
+- **Create**: A refined set of personal learning goals using AI
 
 ---
 
+## Our Journey This Week
+
+### Monday: Can we control AI output?
+### Tuesday: How do we populate the context window?
+### Wednesday: What can we verify?
+### Thursday: When do things break?
+### Friday: How do we work sustainably?
+
+Each day builds on the last - we're learning both skills AND judgment.
 
 
-Teaching with: Sebastian
+---
 
-### Intros
+## Introductions (20 min)
 
-Give learning outcomes for the Course
-and learning outcomes for the Day
+On the Conceptboard:
+1. Write your name and background
+2. Add one question you have about AI
+3. Put a +1 on questions you share
 
-Who are we, why are we experts, etc
+Let's learn who's in the room and what we're curious about.
 
-Teach the concept board
+---
 
-Sticky note protocol: green/red -- check for colour blind
+## The Grimoire Concept
 
+**What**: Our collective spellbook of prompts
+**Why**: Learn from each other's experiments
+**How**: Document, annotate, iterate
 
-### Activity 1
+Throughout the week:
+- Save your prompts
+- Note what worked/failed  
+- Share discoveries
+- Build on others' work
 
-Introductions on the concept board
+---
 
-Write an intro on the board
+## Technical Setup
 
-Add questions to the board
+### Sticky note protocol
 
-Add +1s to the board for questions
+On your desk is a green and a pink sticky note. 
 
-Question queue
+Green: "I am done with the task"
+Pink: "I would like help"
+Nothing: "I am happily working away, please wait for me."
 
+### Getting Connected
+1. Check your email for an API key
+2. Open chatcraft.org
+3. Enter your API key in the settings menu
+4. Connect to Claude Sonnet 4
 
-### Starting the grimoire
+If you have an API key in your email put up a green sticky note now.
 
-* Introduction to Mollick's grimoires
-* Showing git flight rules
-* Showing where we can share and annotate prompts
-* Show teaching the unknown paper annotations
+---
 
-### Activity 2.
+## Exercise: Ask Me One Question at a Time
 
-Getting API keys to everyone, connecting to chatcraft. 
+Your first real AI interaction! We'll use this prompt:
 
-* Connect to sonnet
-* System prompt in rhyme, emoji
-* Competition to make the worst system prompt
+[Prompt template to be added]
 
+The AI will interview you to help refine your learning goals for the week. Notice:
+- How it builds understanding gradually
+- Which questions are helpful vs. not
+- How your answers shape its questions
 
-### Conclusion
+---
 
-Show me your prompts! 
+## What's Next?
 
-Expectation that they will **play** with these after class ends.
+### After the Break
+- System prompts and control
+- The "Drunk Tutor" problem
+- Beginning our annotation practice
 
-Show ways BBS has played.
+### Throughout the Week
+- Daily "Show me your prompts" discussions
+- Building complexity gradually
+- Developing your judgment alongside skills
 
- 
+---
+
+## Resources
+
+- Conceptboard: [Link]
+- ChatCraft: [Link]
+- Course materials: [Link]
+- Questions? Ask anytime!

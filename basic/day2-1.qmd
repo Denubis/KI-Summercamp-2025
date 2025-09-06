@@ -1,6 +1,6 @@
 ---
-title: "Day 2 - Session 1: Questioning Techniques and Metaprompting"
-subtitle: "Passive consumption vs. active interrogation"
+title: "Day 2 - Session 1: Basic Prompting Foundations"
+subtitle: "How do we populate the context window effectively?"
 author: 
   - "Dr Brian Ballsun-Stanton"
   - "Dr Sebastian Busse"
@@ -18,25 +18,172 @@ format:
     navigation-mode: vertical
 ---
 
-### Day goals and outline
+## Good Morning!
 
-### Show me your prompts/Grimoire maintenence
+### Today's Big Question
+**How do we populate the context window effectively?**
 
-### Activity "Ask me one question at a time"
+### This Morning
+- Share your annotated prompts
+- Learn basic prompting theory
+- Practice iterative questioning
+- Begin systematic annotation
 
-### Lecture
+---
 
-* Day 2, Session 3, Morning \- Some basic theory  
-  * Setting the scene (asking the right questions)  
-  * Typologies of LLMs  
-  * Rules of thumb
+## Show Me Your Prompts! (15 min)
 
+### Our First Sharing Session
 
-### Activity - Metaprompting
+1. Who tried the homework prompt?
+2. What surprised you about the AI's questions?
+3. What did you highlight in pink (didn't work)?
+4. What did you highlight in blue (worked well)?
 
+**Remember**: We learn from failures as much as successes
 
-### Discussion: What makes a good prompt?
-* Session 7 \- morning \- advanced prompting  
-  * Longer, thorough, prompts  
-  * Underlying principles of prompting  
-  * Lots of playing around  
+---
+
+## What We'll Learn This Session
+
+By the end of this morning, you will be able to:
+
+- **Explain**: How iterative questioning builds context
+- **Identify**: Which AI questions advance vs. derail your work
+- **Track**: When prompts succeed vs. fail through annotation
+
+---
+
+## Basic Theory: Rules of Thumb (20 min)
+
+### The Engineering Method
+"Solving problems using rules of thumb that cause the best change in a poorly understood situation using available resources" - Bill Hammack
+
+### For Prompting, This Means
+- We don't know exactly why things work
+- We develop local heuristics through practice
+- What works depends on context
+- Iteration beats perfection
+
+---
+
+## Key Prompting Principles
+
+### 1. Context is Everything
+The AI only knows what's in the current conversation
+
+### 2. Specificity Matters
+Vague instructions → vague outputs
+
+### 3. Iteration is Expected
+First attempts rarely perfect
+
+### 4. Structure Helps
+Break complex tasks into steps
+
+---
+
+## Exercise: Weakening the Prompt (15 min)
+
+### Remember Yesterday's Prompt?
+Take the "ask me one question at a time" prompt from yesterday.
+
+### Now Break It
+Remove these key words:
+- "pointed"
+- "specific" 
+- "critical"
+- "one at a time"
+
+Try: "Help me figure out my goals for the week"
+
+### Compare Results
+What changes? Put up green sticky when complete.
+
+---
+
+## What Makes Prompts Effective?
+
+### Good prompts
+- One task at a time
+- High scaffolding
+- Easily falsfiable
+
+### Bad Prompts
+- Generic
+- Fact based
+- Poorly populated context window
+- Multiple questions
+
+---
+
+## Annotation Practice (20 min)
+
+### On the Conceptboard
+
+With your conversation from the weakening exercise:
+
+1. **Your prompts**: Mark what instructed useful behavior
+2. **AI responses**: Note where it followed/ignored instructions
+3. **Patterns**: What words consistently trigger better responses?
+
+### Share with Your Neighbor
+Compare annotations - same patterns?
+
+---
+
+## The Context Window
+
+Think of it as a bucket:
+- Everything must fit inside
+- New information pushes out old
+- Quality matters more than quantity
+- You control what goes in
+
+Your prompts are the recipe for filling this bucket effectively.
+
+---
+
+## Playing with GPT-2
+
+Go visit [mirror.zad-giessen.de/perplexity](https://mirror.zad-giessen.de/perplexity)
+
+We will talk about why the context window matters so much as you play with it.
+
+Other concepts:
+
+- Tokens
+- Temperature
+
+---
+
+## Looking Ahead
+
+### Today: Metaprompting
+- Can AI write its own prompts?
+- The blank page problem
+- Epistemic humility (or lack thereof)
+
+### Tomorrow: What Can We Verify?
+- Working with documents
+- Extracting vs. interpreting
+- Model differences matter
+
+---
+
+## Key Takeaways
+
+1. **Prompting is engineering** - rules of thumb, not laws
+2. **Iteration is normal** - expect to refine
+3. **Context accumulates** - each exchange builds on the last
+4. **Your judgment develops** - through annotation and reflection
+
+---
+
+## Before the Break
+
+- Save your annotated conversations
+- Add successful prompts to our grimoire
+- Think about: What patterns are you noticing?
+
+See you at 11:00 for metaprompting!
