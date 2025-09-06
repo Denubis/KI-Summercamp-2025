@@ -1,7 +1,9 @@
 ---
-title: "Day 1 - Session 1: Introduction to Generative AI"
-subtitle: "Surface vs. Capability | Confidence vs. Accuracy"
-author: "Dr. Brian Ballsun-Stanton"
+title: "Day 1 - Session 1: Orientation and Setup"
+subtitle: "Who we are, questions, making sure everything works"
+author: 
+  - "Dr Brian Ballsun-Stanton"
+  - "Dr Sebastian Busse"
 date: "8 September 2025"
 format:
   revealjs:

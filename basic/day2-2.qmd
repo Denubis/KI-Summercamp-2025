@@ -1,7 +1,9 @@
 ---
-title: "Day 2 - Session 2: Testing Specific Activities"
-subtitle: "Surface vs. Capability | Confidence vs. Accuracy"
-author: "Dr. Brian Ballsun-Stanton"
+title: "Day 2 - Session 2: Annotating prompts and Productive Failure"
+subtitle: "How do we get better?"
+author: 
+  - "Dr Brian Ballsun-Stanton"
+  - "Dr Sebastian Busse"
 date: "9 September 2025"
 format:
   revealjs:
@@ -15,26 +17,19 @@ format:
     highlight-style: github
     navigation-mode: vertical
 ---
-Teaching with:  Sebastian
 
 ### Session goals
 
-### Exercise 7. Working with files
 
-  * AI as Student  
-    * Activity: Explain something you know well to the AI  
+### Lecture: Building skill with annotations
+- How to annotate a prompt
+- How to discuss it
 
-### Lecture - common misconceptions
-* Training is not chatting
-* Calculator for words
-* Absence of Judgement / epistemic humility
+### Activity: Use then annotate your metaprompts
 
-### Exercise 8. Playing with different models
+### Discussion: How do we make these prompts better?
 
-* Gemini 2.5 pro for transcription
-* Getting 3 different models to ask pointed questions
-
-
+### Activity: Discuss each other's goals and prompts in pairs
 
 ### End of day sticky note feedback
 1 thing we did well

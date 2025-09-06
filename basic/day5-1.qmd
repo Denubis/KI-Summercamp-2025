@@ -1,7 +1,9 @@
 ---
-title: "Day 5 - Session 1: Introduction to Generative AI"
-subtitle: "Surface vs. Capability | Confidence vs. Accuracy"
-author: "Dr. Brian Ballsun-Stanton"
+title: "Day 5 - Session 1: Scaling to Projects"
+subtitle: "Context and Iteration"
+author: 
+  - "Dr Brian Ballsun-Stanton"
+  - "Dr Joss von Hadeln"
 date: "12 September 2025"
 format:
   revealjs:
@@ -22,12 +24,9 @@ Teaching with: Joss
 ### Show me your prompts! 
 
 
-### Exercise 15 - context/feedback loops with claude and git - working on larger projects
 
-* Session 9 \- morning  
-  * Roleplaying and scenarios  
-  * Activity: Roleplay lite (not using sillytavern, but just setting up the scenario for legal context)  
-  * Activity: Show how sillytavern can enhance from a classroom perspective  
+### Long Activity - context/feedback loops with claude and git - working on larger projects
+
 
 ### Discussion - Finalising the grimoire
 

@@ -1,7 +1,9 @@
 ---
-title: "Day 4 - Session 1: Introduction to Generative AI"
-subtitle: "Surface vs. Capability | Confidence vs. Accuracy"
-author: "Dr. Brian Ballsun-Stanton"
+title: "Day 4 - Session 1: When AI helps vs. when it replaces thinking"
+subtitle: "Organization and Editing"
+author: 
+  - "Dr Brian Ballsun-Stanton"
+  - "Dr Joss von Hadeln"
 date: "11 September 2025"
 format:
   revealjs:
@@ -22,17 +24,16 @@ Teaching with: Joss
 
 ### Show me your prompts! / Grimoire maintenence  
 
-### Discussion: How to keep up
-
-* Who do I read?
-* RSS reader
-* How do I evaluate new models?
-
-### Exercise 13 - Metaprompting
 
 
-### Discussion: What makes a good prompt?
-* Session 7 \- morning \- advanced prompting  
-  * Longer, thorough, prompts  
-  * Underlying principles of prompting  
-  * Lots of playing around  
+### Activity - AI for idea organisation  
+    * Activity: Building an outline out of a pile of quotes  
+
+### Lecture: Successful Failure
+  * How can we break it?
+  - What do we learn from faillure?
+  (and why)
+
+### Activity - Make RAG fail, make AI fail
+
+

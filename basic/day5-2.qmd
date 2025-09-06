@@ -1,7 +1,9 @@
 ---
-title: "Day 5 - Session 2: Wrapping up"
+title: "Day 5 - Session 2: Synthesis and Next Steps"
 subtitle: "What have we learned?"
-author: "Dr. Brian Ballsun-Stanton"
+author: 
+  - "Dr Brian Ballsun-Stanton"
+  - "Dr Joss von Hadeln"
 date: "12 September 2025"
 format:
   revealjs:
@@ -15,11 +17,10 @@ format:
     highlight-style: github
     navigation-mode: vertical
 ---
-Joss
+### Lecture, Broad understanding of terminology
+Working through https://rentry.co/samplers#top-p
 
-Broad understanding of terminology
-
-### Working with other interfaces
+### Activity - Working with other interfaces
   * Activity: Show how sillytavern can enhance from a classroom perspective  
   * OpenWebUI
   * Various services

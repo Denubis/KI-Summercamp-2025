@@ -1,7 +1,9 @@
 ---
-title: "Day 3 - Session 2: Introduction to Generative AI"
-subtitle: "Surface vs. Capability | Confidence vs. Accuracy"
-author: "Dr. Brian Ballsun-Stanton"
+title: "Day 3 - Session 2: Judgment, Bias, and Inductive Reasoning"
+subtitle: "Building Evals and looking at different modes of engagement"
+author: 
+  - "Dr Brian Ballsun-Stanton"
+  - "Dr Sebastian Busse"
 date: "10 September 2025"
 format:
   revealjs:
@@ -15,23 +17,28 @@ format:
     highlight-style: github
     navigation-mode: vertical
 ---
-Teaching with: Sebastian
 
 
-### Exercise 11 
-
-  * AI for idea organisation  
-    * Activity: Building an outline out of a pile of quotes  
-
-### Lecture/Discussion AI safety / AI bias and the importance of prompts  
 
 
-### Exercise 12
+### Lecture
 
-  * AI as Editor  
-    * Activity: Copy Editing  
+* Absence of Judgement / epistemic humility, what does judgement entail?
 
-### Discussion: Reading the terms of service
+### Activity - Zendo
+
+### Discussion: Building our own evals
+
+* Session 5 \- morning \- problems and biases  
+  * What does “judgement” entail?  
+    * Activity: Zendo  
+
+### Activity - Roleplaying
+
+  * Roleplaying and scenarios  
+  * Activity: Roleplay lite (not using sillytavern, but just setting up the scenario for legal context)  
+
+
 
 ### End of day sticky note feedback
 1 thing we did well

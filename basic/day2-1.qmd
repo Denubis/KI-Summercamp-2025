@@ -1,7 +1,9 @@
 ---
-title: "Day 2 - Session 1: Basic Theory"
-subtitle: "Surface vs. Capability | Confidence vs. Accuracy"
-author: "Dr. Brian Ballsun-Stanton"
+title: "Day 2 - Session 1: Questioning Techniques and Metaprompting"
+subtitle: "Passive consumption vs. active interrogation"
+author: 
+  - "Dr Brian Ballsun-Stanton"
+  - "Dr Sebastian Busse"
 date: "9 September 2025"
 format:
   revealjs:
@@ -15,13 +17,12 @@ format:
     highlight-style: github
     navigation-mode: vertical
 ---
-Teaching with: Sebastian
 
 ### Day goals and outline
 
-### Show me your prompts!
+### Show me your prompts/Grimoire maintenence
 
-### Activity 5. "Ask me one question at a time"
+### Activity "Ask me one question at a time"
 
 ### Lecture
 
@@ -31,6 +32,11 @@ Teaching with: Sebastian
   * Rules of thumb
 
 
+### Activity - Metaprompting
 
-### Activity 6, build annotated bibliography entry
-  * Activity 5: Pull quotes out of a document to build tailored discussion as per ancient history caligula exercise
+
+### Discussion: What makes a good prompt?
+* Session 7 \- morning \- advanced prompting  
+  * Longer, thorough, prompts  
+  * Underlying principles of prompting  
+  * Lots of playing around  

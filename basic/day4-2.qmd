@@ -1,7 +1,9 @@
 ---
-title: "Day 4 - Session 2: Introduction to Generative AI"
-subtitle: "Surface vs. Capability | Confidence vs. Accuracy"
-author: "Dr. Brian Ballsun-Stanton"
+title: "Day 4 - Session 2: How to keep up"
+subtitle: "Leveraging the literature and navigating endless change"
+author: 
+  - "Dr Brian Ballsun-Stanton"
+  - "Dr Joss von Hadeln"
 date: "11 September 2025"
 format:
   revealjs:
@@ -15,17 +17,21 @@ format:
     highlight-style: github
     navigation-mode: vertical
 ---
-Teaching with: Joss
+
+### Discussion: How to keep up
+
+* Who do I read?
+* RSS reader
+* How do I evaluate new models?
+
+### Discussion: Reading the terms of service
+
+### Discussion: And the judge was not amused
+
+  * Discussion of “And the judge was not amused” / [Australian version](https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/FedCFamC2F/2024/957.html)   
 
 
-### Lecture: Successful Failure
-  * How can we break it?
-  - What do we learn from faillure?
-  (and why)
 
-### Exercise 14 - Make RAG fail, make AI fail
-
-### Discussion/Exercise 15 - Annotate our prompts and start collating the grimoire
 
 ### End of day sticky note feedback
 1 thing we did well

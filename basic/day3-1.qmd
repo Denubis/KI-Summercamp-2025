@@ -1,7 +1,9 @@
 ---
-title: "Day 3 - Session 1: Problems and Biases"
-subtitle: "Surface vs. Capability | Confidence vs. Accuracy"
-author: "Dr. Brian Ballsun-Stanton"
+title: "Day 3 - Session 1: Misconceptions and the grain of different models"
+subtitle: "Deductive work and understanding how model choices differ"
+author: 
+  - "Dr Brian Ballsun-Stanton"
+  - "Dr Sebastian Busse"
 date: "10 September 2025"
 format:
   revealjs:
@@ -15,25 +17,19 @@ format:
     highlight-style: github
     navigation-mode: vertical
 ---
-Teaching with: Sebastian
-
-
 ### Show me your prompts! / Grimoire maintenence 
 
-### Lecture
 
-* Absence of Judgement / epistemic humility, what does judgement entail?
+### Activity - build annotated bibliography entry
+  * Pull quotes out of a document to build tailored discussion as per ancient history caligula exercise
 
-### Exercise 9. Zendo
+### Lecture - common misconceptions and useful approaches
+* Training is not chatting
+* Calculator for words
+* What knobs can we control?
+* Lots of text to less text
 
-### Discussion: Building our own evals
+### Activity - Playing with different models
 
-* Session 5 \- morning \- problems and biases  
-  * What does “judgement” entail?  
-    * Activity: Zendo  
-
-### Exercise 10. Roleplaying
-
-  * Roleplaying and scenarios  
-  * Activity: Roleplay lite (not using sillytavern, but just setting up the scenario for legal context)  
-  * Activity: Show how sillytavern can enhance from a classroom perspective  
+* Gemini 2.5 pro for transcription
+* Getting 3 different models to ask pointed questions

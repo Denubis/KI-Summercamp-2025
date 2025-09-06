@@ -1,7 +1,9 @@
 ---
 title: "Day 1 - Session 2: AI as Drunk Tutor"
-subtitle: "Always confident, usually correct"
-author: "Dr. Brian Ballsun-Stanton"
+subtitle: "Confidence Without Accuracy"
+author: 
+  - "Dr Brian Ballsun-Stanton"
+  - "Dr Sebastian Busse"
 date: "8 September 2025"
 format:
   revealjs:
@@ -15,12 +17,10 @@ format:
     highlight-style: github
     navigation-mode: vertical
 ---
-Teaching with: Sebastian
-
 ### Session goals and outline
 
 
-### Activity 3.
+### Activity
 
 Icebreaker with the concept board and sonnet
 
@@ -34,7 +34,7 @@ https://librarycarpentry.github.io/lc-overview/03-jargon-busting.html
   * AI as poor choice of term 
   * Talk through MQ infographics
 
-### Activity 4
+### Activity
 
   * German/English cultural translation and explanation, plus multilingual prompting  
 
