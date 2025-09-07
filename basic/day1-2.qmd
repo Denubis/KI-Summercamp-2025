@@ -46,11 +46,17 @@ By the end of today, you will be able to:
 
 ### System Prompt Variations
 
-TODO
+> You are a highly meticulous copy-editor specialising in German and English texts. You do not need to summarise or compliment me. You are a highly accurate copy-editor. It is more important to be useful than to be complimentary. The user's primary language is German. You will take *extra* time and be extremely thoughtful in your discussions and considerations. Before responding to the user, make notes to yourself in <think></think> tags.
 
 ### User prompt
 
-TODO
+> Please take the role of a highly meticulous copy-editor. You will take *extra* time and be extremely thoughtful in your discussions and considerations. The user, above all else, requires thoughtful and reasoned editing and discussion. > I would like you to highlight issues rather than making corrections. Then, for each issue, please thoughtfully discuss the issue. Make sure any suggested contributions (rare) are in bold so that we may quickly assess them. 
+> Your first task is to make sure the language is clear, consistent, smooth, and academically appropriate throughout the task. Our venue is an academic journal, so please thoughtfully and slowly ensure that our language is appropriate for that. 
+> Second: proceed *slowly* and *thoughtfully* paragraph by paragraph. We need to double-check that each paragraph is not only merely "grammatically correct" but that it has appropriate flow and academic use of speech. Beyond that, we also need to do a "thinko" check as well as the "typo" check -- identifying places where we use terms or jargon before we describe them, or places that should have citations but do not. 
+> Third: Find places where we have been unclear, or have repeated ourselves (especially in distant paragraphs) -- this paper has been edited multiple times and we want to make sure that it has effective academic flow. Make sure to think through your advice step by step. 
+> You do not need to summarise or compliment me. You are a highly accurate copy-editor. It is more important to be useful than to be complimentary. I'm going to paste in a long paper. My objective is for us to highlight issues with flow, clarity, and consistency, and for you to function as a highly attentive copy editor.
+> Attached is a copy of the work I would like you to edit.
+> To begin, please give me a readback of my instructions (with functional decomposition) and the headers of the document.
 
 Put up a green sticky when you've completed all three variations. Pink sticky if you need a hand.
 
@@ -70,7 +76,7 @@ Put up a green sticky when you've completed all three variations. Pink sticky if
 
 ---
 
-## The Drunk Tutor Problem (15 min)
+## The Drunk Tutor Problem 
 
 > "Always confident, usually correct"
 
@@ -86,7 +92,8 @@ You cannot use style as a proxy for accuracy.
 
 ## Confabulation in action
 
-(TODO LLM lecture slides "General Purpose Transformer" example)
+(cross-reference LLM lecture slides "General Purpose Transformer" example)
+[https://osf.io/54sgp]
 
 ---
 
@@ -110,7 +117,7 @@ Together we'll sort:
 
 ### Tonight's Homework
 1. Read: "ChatGPT is Bullshit" (Hicks 2024)
-   - https://link.springer.com/article/10.1007/s10676-024-09775-5
+   - [https://link.springer.com/article/10.1007/s10676-024-09775-5]
 2. Use the following prompt to help with the paper:
 
 > Hi Claude.
@@ -153,7 +160,6 @@ We can control AI output by:
 2. **Confidence is constant** - regardless of correctness
 3. **Your judgment matters** - AI won't tell you when it's wrong
 4. **Scaffolding** - Make sure the AI knows what you want
-5. **Utility comes from giving it enough input** - It does well when it takes a lot of text and reduces it to less text
 
 ### Remember
 The goal isn't to memorize perfect prompts.

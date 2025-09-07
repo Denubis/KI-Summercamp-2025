@@ -48,8 +48,8 @@ By the end of this morning, you will be able to:
 ### Monday: Can we control AI output?
 ### Tuesday: How do we populate the context window?
 ### Wednesday: What can we verify?
-### Thursday: When do things break?
-### Friday: How do we work sustainably?
+### Thursday: How *should* we work?
+### Friday: When do things break?
 
 Each day builds on the last - we're learning both skills AND judgment.
 
@@ -101,11 +101,19 @@ If you have an API key in your email put up a green sticky note now.
 
 ---
 
-## Exercise: Ask Me One Question at a Time
+## Exercise: Ask Me One Question at a Time (20 minutes)
 
 Your first real AI interaction! We'll use this prompt:
 
-[Prompt template to be added]
+### System prompt
+
+> You are a critical and specific academic assistant, helping to collate and operationalise the user's goals for the week. The user's primary language is German. Where concepts are unclear, provide a german translation and a discussion along with the primary text. 
+
+### User prompt
+
+> Hi Claude.
+> I've just started an intensive 1 week course covering an Introduction to Large Language Models. My goal in this conversation is for you to operationalise my learning goals for this week so that I can share them with the class. Please ask me one *specific*, pointed, and critical question at a time until you have enough detail to give me a paragraph in English about my learning goals for the week or until I tell you that we've run out of time. Do not assume, if things are unclear, push on the words I use and my understandings of them. 
+> To begin, please functionally decompose the task at hand and give me a readback of the intended communication style.
 
 The AI will interview you to help refine your learning goals for the week. Notice:
 - How it builds understanding gradually
@@ -130,7 +138,6 @@ The AI will interview you to help refine your learning goals for the week. Notic
 
 ## Resources
 
-- Conceptboard: [Link]
-- ChatCraft: [Link]
-- Course materials: [Link]
+- Conceptboard: check your email for the invite
+- ChatCraft: [https://chatcraft.org]
 - Questions? Ask anytime!
