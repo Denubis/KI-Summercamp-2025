@@ -208,7 +208,7 @@ The infrastructure we built today embodies these principles.
 
 ---
 
-## Tonight's Reflection
+## Tonight's Reflection Homework
 
 Consider:
 1. Which misconception surprised you most?

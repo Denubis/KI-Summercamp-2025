@@ -1,0 +1,74 @@
+---
+title: "Basic Course - Week 1"
+subtitle: "AI Literacy Through Critical Interrogation"
+author: "Dr Brian Ballsun-Stanton & Dr Sebastian Busse"
+date: "September 8-12, 2025"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+---
+
+## Course Overview
+
+This intensive week introduces AI literacy through hands-on exploration, systematic annotation, and progressive skill building. Each day addresses a fundamental question about working with Large Language Models.
+
+## Daily Structure
+
+Each day consists of:
+- **Morning session** (9:00-10:30): Skills development
+- **Break** (10:30-11:00): Grimoire work and annotation
+- **Midday session** (11:00-12:30): Critical discussions and judgment development
+
+## Week at a Glance
+
+### Day 1 (Monday, Sept 8): Can we control AI output?
+- [Session 1: Welcome and Getting Started](day1-1.qmd) - Setup, introductions, goal setting
+- [Session 2: The 'Confident' Assistant](day1-2.qmd) - System prompts, drunk tutor problem
+
+### Day 2 (Tuesday, Sept 9): How do we populate the context window?
+- [Session 1: Basic Prompting Foundations](day2-1.qmd) - Rules of thumb, annotation practice
+- [Session 2: Metaprompting](day2-2.qmd) - Blank page problem, epistemic humility
+
+### Day 3 (Wednesday, Sept 10): What can we verify?
+- [Session 1: File Handling and Source Work](day3-1.qmd) - Extraction vs interpretation
+- [Session 2: Model Differences](day3-2.qmd) - Service grain, failure patterns
+
+### Day 4 (Thursday, Sept 11): How should we work?
+- [Session 1: Research Infrastructure](day4-1.qmd) - State management, conversation strategy
+- [Session 2: The Boring Important Stuff](day4-2.qmd) - Legal, ethical, privacy discussions
+
+### Day 5 (Friday, Sept 12): When do things break?
+- [Session 1: Breaking Things Systematically](day5-1.qmd) - Failure modes, evaluation criteria
+- [Session 2: Synthesis and Next Steps](day5-2.qmd) - Reflection, community building
+
+## Core Learning Objectives
+
+By week's end, participants will:
+
+1. **Understand fundamental concepts** - Context windows, tokens, confidence paradox
+2. **Develop practical skills** - Prompting, verification, state management
+3. **Recognize limitations** - Confabulation, model differences, failure patterns
+4. **Build judgment** - When to use, when to avoid, how to verify
+
+## The Grimoire
+
+Throughout the week, we build a collective "spellbook" of prompts through:
+- Daily "Show me your prompts" sessions
+- Systematic annotation practice
+- Shared documentation on Conceptboard
+- Peer learning from successes and failures
+
+## Required Preparation
+
+Before Day 1:
+- Check email for API key
+- Create account at chatcraft.org
+- Review [course resources](../resources.qmd)
+
+## Technical Requirements
+
+- Laptop with modern browser
+- ChatCraft account with API key
+- Access to Conceptboard (link provided Day 1)
+- Ability to print prompts for annotation

@@ -16,12 +16,39 @@ website:
         text: "Overview"
       - text: "Basic Course"
         menu:
-          - href: basic/day1.qmd
-            text: "Day 1: Introduction"
-      - text: "Advanced Course"
-        menu:
-          - href: advanced/day1.qmd
-            text: "Day 1: Documentation & Coding"
+          - text: "Week Overview"
+            href: basic/index.qmd
+          - text: "---"
+          - text: "Day 1 - Control"
+            menu:
+              - text: "Session 1: Welcome"
+                href: basic/day1-1.qmd
+              - text: "Session 2: Confident Assistant"
+                href: basic/day1-2.qmd
+          - text: "Day 2 - Context"
+            menu:
+              - text: "Session 1: Basic Prompting"
+                href: basic/day2-1.qmd
+              - text: "Session 2: Metaprompting"
+                href: basic/day2-2.qmd
+          - text: "Day 3 - Verification"
+            menu:
+              - text: "Session 1: File Handling"
+                href: basic/day3-1.qmd
+              - text: "Session 2: Model Differences"
+                href: basic/day3-2.qmd
+          - text: "Day 4 - How Should We Work"
+            menu:
+              - text: "Session 1: Research Infrastructure"
+                href: basic/day4-1.qmd
+              - text: "Session 2: Boring Important Stuff"
+                href: basic/day4-2.qmd
+          - text: "Day 5 - Breaking Things"
+            menu:
+              - text: "Session 1: Systematic Failures"
+                href: basic/day5-1.qmd
+              - text: "Session 2: Synthesis"
+                href: basic/day5-2.qmd
       - href: "https://www.uni-giessen.de/en/faculties/diml/media/aisummercamp2025/aisummercamp2025"
         text: "Official Page"
     right:
