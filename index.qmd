@@ -12,36 +12,52 @@ Welcome to the **AI Summercamp 2025** at Justus-Liebig-Universität Gießen!
 
 This three-week intensive course explores the epistemological boundaries between what students believe LLMs are versus what they actually are. Human judgment remains central throughout.
 
-## Course Structure
 
-### Basic Course (8-12 September)
+## Basic Course (8-12 September)
 
-**Time:** Monday-Friday, 09:00-12:30  
-**Location:** Seminargebäude II, Room 103, Phil I  
-**Language:** English  
-**Instructor:** Dr. Brian Ballsun-Stanton
+This intensive week introduces AI literacy through hands-on exploration, systematic annotation, and progressive skill building. Each day addresses a fundamental question about working with Large Language Models.
 
-**Week Overview:**
+Each day consists of:
+- **Morning session** (9:00-10:30): Skills development
+- **Break** (10:30-11:00): Grimoire work and annotation
+- **Midday session** (11:00-12:30): Critical discussions and judgment development
 
-- **Day 1:** Introduction & System Prompts
-  - Session 1: Surface vs. Capability Boundary
-  - Session 2: Confidence vs. Accuracy
-  
-- **Day 2:** Basic Theory & Activities
-  - Session 3: Basic Theory
-  - Session 4: AI as Tool vs. AI as Intelligence
-  
-- **Day 3:** Problems and Biases
-  - Session 5: Reliable vs. Hallucinated Information
-  - Session 6: Model Differences
-  
-- **Day 4:** Advanced Prompting
-  - Session 7: Advanced Prompting Techniques
-  - Session 8: Embeddings, RAG, Fine-tuning
-  
-- **Day 5:** Roleplaying and Scenarios
-  - Session 9: Legal Context Roleplay
-  - Session 10: Wrap-up & Grimoire Compilation
+### Day 1 (Monday, Sept 8): Can we control AI output?
+- [Session 1: Welcome and Getting Started](basic/day1-1.qmd) - Setup, introductions, goal setting
+- [Session 2: The 'Confident' Assistant](basic/day1-2.qmd) - System prompts, drunk tutor problem
+
+### Day 2 (Tuesday, Sept 9): How do we populate the context window?
+- [Session 1: Basic Prompting Foundations](basic/day2-1.qmd) - Rules of thumb, annotation practice
+- [Session 2: Metaprompting](basic/day2-2.qmd) - Blank page problem, epistemic humility
+
+### Day 3 (Wednesday, Sept 10): What can we verify?
+- [Session 1: File Handling and Source Work](basic/day3-1.qmd) - Extraction vs interpretation
+- [Session 2: Model Differences](basic/day3-2.qmd) - Service grain, failure patterns
+
+### Day 4 (Thursday, Sept 11): How should we work?
+- [Session 1: Research Infrastructure](basic/day4-1.qmd) - State management, conversation strategy
+- [Session 2: The Boring Important Stuff](basic/day4-2.qmd) - Legal, ethical, privacy discussions
+
+### Day 5 (Friday, Sept 12): When do things break?
+- [Session 1: Breaking Things Systematically](basic/day5-1.qmd) - Failure modes, evaluation criteria
+- [Session 2: Synthesis and Next Steps](basic/day5-2.qmd) - Reflection, community building
+
+### Core Learning Objectives
+
+By week's end, participants will:
+
+1. **Understand fundamental concepts** - Context windows, tokens, confidence paradox
+2. **Develop practical skills** - Prompting, verification, state management
+3. **Recognize limitations** - Confabulation, model differences, failure patterns
+4. **Build judgment** - When to use, when to avoid, how to verify
+
+### The Grimoire
+
+Throughout the week, we build a collective "spellbook" of prompts through:
+- Daily "Show me your prompts" sessions
+- Systematic annotation practice
+- Shared documentation on Conceptboard
+- Peer learning from successes and failures
 
 ### Advanced Course (15-19 September)
 
@@ -60,11 +76,7 @@ This three-week intensive course explores the epistemological boundaries between
 
 ## Evening Events
 
-### Opening Keynote
-**Christian Uhle** (Philosopher & Author)  
-*"Künstliche Intelligenz und echtes Leben: Wie ändert sich die Rolle des Menschen in unseren Gesellschaften und Arbeitswelten?"*  
-Monday, 8 September, 18:00-20:00  
-Margarete-Bieber-Saal
+
 
 ### Legal Perspectives on AI
 **Dr. Sophie Garling & Yvonne Roßmann** (JUN Legal GmbH)  
