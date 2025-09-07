@@ -1,6 +1,6 @@
 ---
-title: "Day 5 - Session 1: Scaling to Projects"
-subtitle: "Context and Iteration"
+title: "Day 5 - Session 1: Breaking Things Systematically"
+subtitle: "Finding where and why AI fails"
 author: 
   - "Dr Brian Ballsun-Stanton"
   - "Dr Joss von Hadeln"
@@ -17,3 +17,155 @@ format:
     highlight-style: github
     navigation-mode: vertical
 ---
+## Good Morning!
+
+### Today's Big Question
+**When do things break?**
+
+### This Morning
+- Trigger failure modes systematically
+- Understand why failures happen
+- Build your "don't trust" catalog
+- Learn to predict breakage
+
+---
+
+## Show Me Your Prompts! (15 min)
+
+### Final Sharing Session
+1. What sustainable practices did you develop yesterday?
+2. Any overnight discoveries?
+3. What are you still struggling with?
+
+---
+
+## What We'll Learn This Session
+
+By the end of this morning, you will be able to:
+
+- **Analyze**: Identify failure patterns across contexts (Marzano Level 3)
+- **Evaluate**: Predict when AI will fail (Marzano Level 4)
+- **Create**: Build personal evaluation criteria (Marzano Level 4)
+
+---
+
+## Why Break Things on Purpose?
+
+### The Goal
+Know failure modes BEFORE they matter
+
+### From Research
+- "Always confident, usually correct"
+- No epistemic humility
+- Confabulation as default
+- Sycophancy over accuracy
+
+---
+
+## Exercise: Systematic Failure Exploration (45 min)
+
+### Five Stations, Five Failures
+
+TODO: Rotation through failure modes
+
+---
+
+## Failure 1: Sycophancy Test
+
+TODO: False premise agreement
+
+---
+
+## Failure 2: Token Blindness
+
+TODO: Character counting
+
+---
+
+## Failure 3: Self-Contradiction
+
+TODO: Context manipulation
+
+---
+
+## Failure 4: Capability Lies
+
+TODO: Claiming impossible abilities
+
+---
+
+## Failure 5: Temporal Confusion
+
+TODO: Time-based errors
+
+---
+
+## The Pattern Behind Failures
+
+### What These Share
+- No actual understanding
+- Statistical prediction only
+- Confidence without knowledge
+- No self-awareness of limits
+
+---
+
+## Discussion: Building Evaluation Criteria (20 min)
+
+### Your Personal Checklist
+When NOT to trust AI:
+- Factual claims without sources
+- Counting or precise measurement
+- Recent events
+- Reasoning about reasoning
+- [Add your discoveries]
+
+---
+
+## Looking Ahead
+
+### This Afternoon: Synthesis
+- What we've learned
+- Where to go next
+- Community building
+
+### Key Question
+How do we maintain human judgment when tools seem so capable?
+
+---
+
+### Answering Today's Question
+
+**When do things break?**
+
+Things break when:
+- Tasks require actual understanding
+- Precision matters more than plausibility
+- Context exceeds window
+- Time sense required
+- Self-knowledge needed
+
+Our tools break when we:
+* Don't manage state
+* Don't treat them like tools
+* Don't check the output
+
+Out services and expectations of use break when:
+- Users misunderstand training vs. chatting
+- Moral responsibility gets forgotten
+- Privacy assumptions prove false
+- Terms of service change unexpectedly
+
+The boring stuff matters because consequences are real.
+
+---
+
+## Before Lunch
+
+Document your failure catalog:
+- Specific triggers you found
+- Warning signs to watch
+- Tasks to never trust
+- Verification strategies
+
+Bring to final session!

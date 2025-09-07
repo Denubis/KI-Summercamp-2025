@@ -19,11 +19,90 @@ format:
 ---
 
 
+
+
+### Answering the Week's Questions
+
+**Can we control AI output?** (Day 1)
+Yes - through scaffolding and system prompts, but only style, not accuracy
+
+**How do we populate the context window?** (Day 2)  
+Deliberately - with clear structure, one task at a time, deductive not inductive
+
+**What can we verify?** (Day 3)
+Extraction yes, interpretation no - Ctrl+F is truth, confidence isn't
+
+**How should we work?** (Day 4)
+With managed state, verified outputs, and retained human judgment
+
+**When do things break?** (Day 5)
+When tasks require understanding, not pattern matching
+
+---
+
+### The Meta-Lesson
+
+These aren't separate insights but one principle:
+
+**AI tools are powerful mirrors that reflect our judgment back at us.**
+
+They break when we forget they're mirrors.
+They work when we provide what to reflect.
+They fail when we mistake reflection for understanding.
+
+---
+
+### Your Journey Forward
+
+You now have:
+- A grimoire of working prompts
+- A catalog of failure modes  
+- Annotation skills for continuous learning
+- A community of practice
+
+You still need:
+- Continuous adaptation as models change
+- Vigilance against automation bias
+- Commitment to human judgment
+
+---
+
+### Final Class Reflection
+
+In groups of 4-5, discuss:
+
+1. What's the ONE thing you'll do differently when working with AI?
+2. What's the ONE thing you'll never trust AI with?
+3. What's the ONE question you still have?
+
+Share one insight per group with everyone.
+
+---
+
 ### Long Discussion: What should we teach the next time we run this class?
 
 
+* What should we do differently?
+* What questions do you still have?
 
 
-Questions, answers, discussion.
+---
 
-Where to go next.
+### Where to Go Next
+
+- Continue annotating prompts
+- Share discoveries in the community
+- Test new models against your criteria
+- Teach someone else what you learned
+
+Remember: The goal isn't to master AI.
+It's to maintain mastery over our own judgment.
+
+---
+
+### Thank You
+
+Keep questioning.
+Keep testing.
+Keep your judgment central.
+

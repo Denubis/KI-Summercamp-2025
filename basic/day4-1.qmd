@@ -1,6 +1,6 @@
 ---
-title: "Day 4 - Session 1: When AI helps vs. when it replaces thinking"
-subtitle: "Organization and Editing"
+title: "Day 4 - Session 1: Building Your Research Infrastructure"
+subtitle: "Managing state across conversations"
 author: 
   - "Dr Brian Ballsun-Stanton"
   - "Dr Joss von Hadeln"
@@ -17,23 +17,195 @@ format:
     highlight-style: github
     navigation-mode: vertical
 ---
-Teaching with: Joss
 
 
-### Day goals and outline
+## Good Morning!
 
-### Show me your prompts! / Grimoire maintenence  
+### Today's Big Question
+**When do things break?**
 
+### This Morning
+- Build infrastructure for complex projects
+- Learn why conversations need management
+- Practice strategic termination/restart
+- Test context window limits
 
+---
 
-### Activity - AI for idea organisation  
-    * Activity: Building an outline out of a pile of quotes  
+## Show Me Your Prompts! (15 min)
 
-### Lecture: Successful Failure
-  * How can we break it?
-  - What do we learn from faillure?
-  (and why)
+### From Your Bibliography Work
 
-### Activity - Make RAG fail, make AI fail
+1. Who found 3-5 sources with good quotes?
+2. What annotation patterns are emerging?
+3. Which models gave you the most trouble yesterday?
+4. Any spectacular failures to share?
 
+**Key question**: How would you maintain this bibliography across multiple work sessions?
 
+---
+
+## What We'll Learn This Session
+
+By the end of this morning, you will be able to:
+
+- **Create**: System prompts that maintain consistent behavior
+- **Execute**: Strategic conversation management
+- **Analyze**: Context window overflow patterns
+- **Apply**: State management to your project
+
+---
+
+## The Context Window Problem
+
+### What Happens in Long Projects?
+- Morning: Start bibliography
+- Afternoon: Add more sources
+- Tomorrow: Continue work
+- Next week: ...what bibliography?
+
+### The Bucket Overflows
+Old information falls out.
+No memory between conversations.
+Inconsistent behavior across sessions.
+
+---
+
+## Three Types of State
+
+### 1. Project Documents
+- Your bibliography, notes, outline - the artifacts
+- Notes to the LLM, context preserved across sessions, fiddly todo lists
+
+### 2. User and System Prompts  
+Instructions for consistent AI behavior
+
+### 3. Conversation History
+The current discussion context
+
+We need to manage all three.
+
+---
+
+## Exercise Part 1: Document Preparation (15 min)
+
+### Create Your Research State File
+
+```markdown
+# Research Project: [Your Topic]
+## Current Status: Day 4
+
+## Bibliography
+[Paste your 3-5 sources with quotes from yesterday]
+
+## Key Questions
+1. [Your main research question]
+2. [Sub-questions]
+
+## Working Notes
+[Any insights so far]
+```
+
+Save this as a text file on your computer.
+
+---
+
+## Exercise Part 2: System Prompt Design (20 min)
+
+### Write Your Research Assistant Prompt
+
+TODO
+
+Test this with your document. Green sticky when working.
+
+---
+
+## Exercise Part 3: Conversation Management (30 min)
+
+### Practice the Workflow
+
+1. Start fresh conversation
+2. Load system prompt
+3. Paste project document
+4. Work for 5-10 exchanges
+5. Before overflow: Save important outputs
+6. Terminate conversation
+7. Start fresh with updated project document
+
+### The Key Skill
+Knowing WHEN to restart, not just how.
+
+---
+
+## Signs of Context Overflow
+
+### Watch For
+- AI "forgets" earlier instructions
+- Quotes become approximate
+- Behavior becomes generic
+- Response time increases dramatically
+
+### The Rule
+Better to restart early than fight degraded performance.
+
+---
+
+## Discussion: State Management Strategies (15 min)
+
+### In Pairs, Compare
+1. How often did you need to restart?
+2. What did you prioritize keeping?
+3. What got lost despite your efforts?
+
+### Critical Insight
+State management is labor.
+This is the fundamental judgement we need to apply.
+
+---
+
+## The Infrastructure Trade-off
+
+### Convenience (ChatGPT, Claude.ai)
+- Projects and other convienences
+- But: No control over priorities or specific modes of interaction
+
+### Control (ChatCraft + manual management)
+- You decide what matters
+- But: Constant maintenance
+- Visible: The labor involved
+
+---
+
+## Looking Ahead
+
+### This Afternoon: The Boring Important Stuff
+- Legal implications of AI use
+- Privacy and security
+- Terms of Service deep dive
+
+### Tomorrow: Breaking Everything
+- Using your infrastructure to find limits
+- Systematic failure exploration
+- Why breaking things teaches us
+
+---
+
+## Key Takeaways
+
+1. **Context windows are finite** - plan for the next conversation
+2. **State requires management** - it's not automatic
+3. **Restart strategically** - before degradation
+4. **Document everything** - your memory, not AI's
+
+---
+
+## Before the Break
+
+Update your research state file with:
+- Today's new insights
+- Refined system prompt
+- Questions for tomorrow's breaking session
+
+Save multiple versions - we'll break them tomorrow!
+
+See you at 11:00 for legal and ethical discussions!

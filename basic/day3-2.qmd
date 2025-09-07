@@ -1,6 +1,6 @@
 ---
-title: "Day 3 - Session 2: Judgment, Bias, and Inductive Reasoning"
-subtitle: "Building Evals and looking at different modes of engagement"
+title: "Day 3 - Session 2: Model Differences and the Grain of Services"
+subtitle: "Same prompt, different failures"
 author: 
   - "Dr Brian Ballsun-Stanton"
   - "Dr Sebastian Busse"
@@ -18,28 +18,166 @@ format:
     navigation-mode: vertical
 ---
 
+## Welcome Back!
+
+### Where We're Going
+- Test same task across multiple models
+- Watch small models fail spectacularly
+- Understand each service's "grain"
+- Learn to match tool to task
+
+---
+
+## What We'll Learn This Session
+
+By the end of this session, you will be able to:
+
+- **Analyze**: Compare extraction accuracy across models 
+- **Evaluate**: Select appropriate models for specific tasks
+- **Predict**: Identify patterns that signal likely failure
+
+---
+
+## The Grain of Wood, The Grain of Models
+
+Each model + service has a direction it is easier to achieve results in
+
+* Claude
+* Gemini
+* Local models
+* OpenAI's GPT-5
+(implications of fine tuning)
+
+Fighting the grain = poor results + high token cost
+
+---
+
+## Exercise: Model Torture Test (45 min)
+
+### Your Document
+Use your bibliography from this morning and/or with a partner work through the models (split up the models you each are testing)
+
+### Your Task
+Same prompt to each model:
+
+> Using the attached document, please extract three direct quotes that best support the claim that [adapt to your topic]. For each quote, provide:
+> 1. The exact text in quotation marks
+> 2. The section where it appears
+> 3. One sentence explaining its relevance
+
+### Models to Test
+- o4-mini
+- Quen 3 Max
+- Kimi K2
+- GPT-OSS
+- Claude Sonnet 4
+- Claude Opus 4.1
+- Nous Hermes 4
+- Gemini 2.5 Pro (on aistudio.google.com)
+- GPT-5 on chatgpt.com
+
+---
+
+## Recording Your Results
+
+On the Conceptboard, create a table:
+
+| Model | Accurate Quotes | Hallucinated | Response Quality |
+|-------|----------------|--------------|------------------|
+| Claude | ?/3 | | |
 
 
+Green sticky when your group is complete.
 
-### Lecture
+---
 
-* Absence of Judgement / epistemic humility, what does judgement entail?
+## What Patterns Do You See?
 
-### Activity - Zendo
+### Expected Failures
+- Small models: Partial quotes merged together
+- Chinese models: Strong on some topics, weak on others
+- All models: Confidence regardless of accuracy
 
-### Discussion: Building our own evals
+### The Key Insight
+Model size ≠ task fitness
+Expensive ≠ better for everything
 
-* Session 5 \- morning \- problems and biases  
-  * What does “judgement” entail?  
-    * Activity: Zendo  
+---
 
-### Activity - Roleplaying
-
-  * Roleplaying and scenarios  
-  * Activity: Roleplay lite (not using sillytavern, but just setting up the scenario for legal context)  
+## Discussion: When to Use Which Model?
 
 
+---
 
-### End of day sticky note feedback
-1 thing we did well
-1 thing to improve for tomorrow
+## The Cost-Quality Trade-off
+
+### Quick Math
+- o4-mini
+- Quen 3 Max
+- Kimi K2
+- GPT-OSS
+- Claude Sonnet 4
+- Nous Hermes 4
+- Gemini 2.5 Pro
+
+### Critical Question
+Is 95% accuracy worth 30x the cost?
+(Sometimes yes, sometimes no)
+
+---
+
+## Discussion: Failure Patterns (20 min)
+
+### In Groups of 3-4
+1. Which model failed most interestingly?
+2. Could you predict failure before seeing output?
+3. What warning signs appeared in responses?
+
+### Share Back
+Each group: One specific failure pattern you identified
+
+---
+
+## Looking Ahead
+
+### Tomorrow Morning: Infrastructure
+- Managing conversations across sessions
+- Building your research assistant
+- Context window management
+
+### Tomorrow Afternoon: The Boring Important Stuff
+- Who owns your outputs?
+- What happens to your prompts?
+
+
+---
+
+### Answering Today's Question
+
+**What can we verify?**
+
+- **Direct quotes**: Verifiable via Ctrl+F
+- **Model behavior**: Consistent patterns across tasks
+- **Failure modes**: Predictable based on model choice
+- **Cost/benefit**: Measurable and comparable
+
+But NOT:
+- Understanding
+- Reasoning quality  
+- "Truth" of interpretations
+
+---
+
+## Tonight's Task
+
+* Continue building your bibliography. Try to find 3-5 sources with good blockquotes.
+* Annotate your prompts and the outputs.
+
+---
+
+## Sticky Note Feedback
+
+* On your green sticky, write one specific thing we did well today
+* On your pink sticky, write one specific thing we can improve for tomorrow
+
+See you tomorrow at 9:00!

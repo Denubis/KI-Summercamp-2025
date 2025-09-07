@@ -1,6 +1,6 @@
 ---
-title: "Day 4 - Session 2: How to keep up"
-subtitle: "Leveraging the literature and navigating endless change"
+title: "Day 4 - Session 2: The Boring Important Stuff"
+subtitle: "Legal, ethical, and practical realities"
 author: 
   - "Dr Brian Ballsun-Stanton"
   - "Dr Joss von Hadeln"
@@ -18,21 +18,211 @@ format:
     navigation-mode: vertical
 ---
 
-### Discussion: How to keep up
+## Welcome Back!
 
-* Who do I read?
-* RSS reader
-* How do I evaluate new models?
+### Three Critical Discussions
+1. Training is not chatting (misconceptions)
+2. When to run local models (practical decisions)
+3. Moral responsibility (you own the output)
 
-### Discussion: Reading the terms of service
+Each matters for your future AI use.
 
-### Discussion: And the judge was not amused
+---
 
-  * Discussion of “And the judge was not amused” / [Australian version](https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/FedCFamC2F/2024/957.html)   
+## Discussion 1: Training vs. Chatting (20 min)
+
+### The Core Misconception
+
+"ChatGPT and other similar tools do not directly learn from and memorize everything that you say to them." 
+
+### What This Means
+- Every conversation starts fresh
+- No learning between chats
+- Context window ≠ memory
+
+---
+
+## LLMs as Stateless Functions
+
+"From a computer science point of view, it's best to think of LLMs as stateless function calls. Given this input text, what should come next?" 
+
+### Implications
+- Telling AI something doesn't train it
+- New chat = complete reset
+- Your data isn't immediately memorized
+
+### But Also
+- Terms allow future training use
+- Logs exist for compliance
+- Trust crisis is real
+
+---
+
+## Group Discussion: Policy Implications
+
+### In Groups of 4
+1. What does your institution believe about AI training?
+2. Are their policies based on correct understanding?
+3. What would change if they understood statelessness?
+
+### Share Back (10 min)
+Each group: One policy that needs updating
+
+---
+
+## Discussion 2: When to Run Local? (20 min)
+
+### Environmental Costs (from Mistral study)
+
+Training Mistral Large 2:
+- 20.4 ktCO₂e emissions 
+- 281,000 m³ water consumed 
+
+Per query (400 tokens):
+- 1.14 gCO₂e 
+- 45 mL water 
+
+At which point does the tradeoff between augmentic our work with this versus hiring more people or doing less become salient?
+
+What are the costs of your local server and computers?
+
+---
+
+## The Local Model Trade-offs
+
+### Run Local When
+- Absolute privacy required
+- Repetitive bulk tasks
+- "Good enough" sufficient
+- No internet dependency needed
+
+### Use Cloud When
+- Need frontier capabilities
+- Complex reasoning required
+- Accuracy critical
+
+---
+
+## Cost Beyond Money
+
+### Consider
+- Environmental impact
+- Setup complexity
+- Maintenance burden
+- Hardware requirements
+- Performance limitations
+- Data risks
+
+### The Hidden Cost
+Your time configuring and maintaining vs. API fees
+
+---
+
+## Discussion 3: Moral Responsibility (20 min)
+
+### The Core Reality
+**You own the output if you put your name on it.**
+
+### Real Consequences
+- Lawyers sanctioned for hallucinated cases
+- Academic papers retracted for fabricated citations
+- Employees fired for AI errors
+- Students (we hope to) fail for low effort vibe nothings
+
+---
+
+## Terms of Service Deep Dive
+
+### Key Clauses to Find
+1. Who owns generated content?
+2. Can they train on your prompts?
+3. What's the indemnification clause?
+4. What data do they retain?
+
+### Activity (10 min)
+Pull up your preferred AI service ToS.
+Find these four elements.
+Pink sticky if concerning clause found.
+
+---
+
+## Privacy Paradoxes
+
+### What They Say vs. What Happens
+- "We don't train on API data" 
+- But: Logs for compliance
+- But: Terms can change
+- But: Breaches happen
+
+### GDPR Complications
+- US services, EU data
+- Right to deletion vs. model training
+- Data residency requirements
+
+---
+
+## Practical Guidelines
+
+### Always
+- Verify any factual claims
+- Read ToS before sensitive data
+- Keep API keys secure
+- Document AI assistance
+
+### Never
+- Paste credentials into prompts
+- Submit unverified AI output
+- Assume privacy by default
+- Trust without verification
+
+---
+
+### Answering Today's Question
 
 
+**How should we work?**
 
+We should work with AI by:
+- **Managing state deliberately** - Your memory, not the model's
+- **Verifying everything** - Trust but verify becomes just verify
+- **Understanding limitations** - Know what breaks before it matters
+- **Owning outputs** - Moral and legal responsibility stays human
+- **Preserving human judgment** - AI augments, never replaces
+
+The infrastructure we built today embodies these principles.
+
+
+---
+
+## Looking Ahead
+
+### Tomorrow Morning: Breaking Everything
+- Systematic failure exploration
+- Confabulation patterns
+- Edge case discovery
+
+### Tomorrow Afternoon: Synthesis
+- What we've learned
+- Where to go next
+- Building sustainable practices
+
+---
+
+## Tonight's Reflection
+
+Consider:
+1. Which misconception surprised you most?
+2. What policy at your institution needs updating?
+3. When would you choose local over cloud?
+
+Bring your thoughts to tomorrow's discussion. Discuss with Claude. Play with proleptic reasoning. (https://link.springer.com/article/10.1007/s44204-025-00247-1)
+
+---
 
 ### End of day sticky note feedback
-1 thing we did well
-1 thing to improve for tomorrow
+* 1 thing we did well
+* 1 thing to improve for tomorrow
+
+See you tomorrow at 9:00 for systematic breaking!
+
+
