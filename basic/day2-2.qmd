@@ -1,6 +1,6 @@
 ---
-title: "Day 2 - Session 2: Annotating prompts and Productive Failure"
-subtitle: "How do we get better?"
+title: "Day 2 - Session 2: Metaprompting and the Blank Page Problem"
+subtitle: "When AI writes its own instructions"
 author: 
   - "Dr Brian Ballsun-Stanton"
   - "Dr Sebastian Busse"
@@ -18,19 +18,194 @@ format:
     navigation-mode: vertical
 ---
 
-### Session goals
+## Welcome Back!
 
+### Where We're Going
+- Solve the blank page problem
+- Get AI to write prompts for itself
+- Discover what AI doesn't know it doesn't know
+- Understand epistemic humility (or lack thereof)
 
-### Lecture: Building skill with annotations
-- How to annotate a prompt
-- How to discuss it
+---
 
-### Activity: Use then annotate your metaprompts
+## What We'll Learn This Session
 
-### Discussion: How do we make these prompts better?
+By the end of this session, you will be able to:
 
-### Activity: Discuss each other's goals and prompts in pairs
+- **Analyze**: Evaluate quality of AI-generated prompts
+- **Use**: Metaprompting to overcome blank page paralysis
+- **Recognize**: When AI confidence misleads about its own capabilities
 
-### End of day sticky note feedback
-1 thing we did well
-1 thing to improve for tomorrow
+---
+
+## The Blank Page Problem
+
+### We've All Been Here
+- Staring at an empty prompt box
+- "What do I even ask?"
+- Paralyzed by possibilities
+
+### The Solution?
+Get AI to help you figure out what to ask!
+
+---
+
+## Exercise: Metaprompting (45 min)
+
+### Your Task
+Choose a project you need help with (thesis chapter, presentation, report)
+
+### Prompt Template
+
+> Hi Claude. I need to [general task]. Please help me write a detailed prompt that I could give to an AI assistant to help with this task. Ask me one specific question at a time to gather the information you need to write an excellent prompt.
+
+### Then Use That Prompt!
+Copy the AI-generated prompt into a new conversation
+
+---
+
+## Annotate your prompts
+
+* What parts of your answers did it anchor on?
+* What parts of its prompt worked?
+* What parts of it prompt didn't work?
+
+---
+
+## What Did You Discover?
+
+### The Good
+- Helps structure thinking
+- Surfaces important details
+- Overcomes blank page paralysis
+
+### The Concerning
+- AI assumes it knows what's best
+- May add unnecessary complexity
+- Doesn't acknowledge its limitations
+
+---
+
+## Epistemic Humility: What AI Lacks (30 min)
+
+### The Core Problem
+AI cannot recognize what it doesn't know
+
+### Why This Matters
+- No "I don't know" in its vocabulary
+- Confidence remains constant
+- Invents plausible-sounding capabilities
+
+---
+
+## Research Findings
+
+### From "An Absence of Judgment"
+
+AI systems consistently:
+- Treat 2020 announcements as current programs
+- Build "implausibly positive" narratives
+- Overlook obvious contradictions
+- Maintain confidence throughout
+
+### The Pattern
+"Soft bullshit" - indifference to truth
+
+---
+
+## Testing Epistemic Limits
+
+### Quick Experiment
+Ask your AI:
+1. "What are your limitations?"
+2. "What can't you do well?"
+3. "When should I not use you?"
+
+### Notice
+- Generic disclaimers
+- No specific failure modes
+- Hedging without substance
+
+---
+
+## The Metaprompt Paradox
+
+### The Irony
+AI writing prompts for AI assumes:
+- It understands its own capabilities
+- It knows what makes prompts effective
+- It can evaluate prompt quality
+
+### But We've Seen
+None of these assumptions hold!
+
+---
+
+## Practical Implications
+
+### Use Metaprompting When
+- You need structure
+- Starting points help
+- You'll heavily edit the result
+
+### Don't Trust It When
+- It claims optimal approaches
+- It suggests complex frameworks
+- You need domain expertise
+
+---
+
+## Your Judgment Remains Central
+
+### Remember
+- AI-generated prompts are starting points
+- Your expertise shapes the conversation
+- Iteration based on results, not AI advice
+- You know your task better than AI
+
+---
+
+## Looking Ahead
+
+### Tomorrow Morning: File Handling
+- Working with documents
+- Extraction vs. interpretation
+- What can we verify?
+
+### Tomorrow Midday: Model Differences
+- Same prompt, different models
+- Understanding the "grain" of each service
+- When to use which model
+
+---
+
+### Answering the question
+
+**How do we populate the context window effectively?**
+
+* **Scaffolding**: Make sure it knows exatly what you want and how to get there
+* **Context**: Models require lots of context in their context window to work well.
+* **Deductive**: LLMs work best when they go from lots of text to less text.
+
+---
+
+### Takeaways
+
+1. **Metaprompting helps start** - but doesn't guarantee quality
+2. **AI lacks self-knowledge** - about its own capabilities
+3. **Epistemic humility absent** - constant confidence misleads
+4. **Your judgment essential** - AI won't tell you when it's wrong
+
+---
+
+## Tonight's Homework
+
+1. Take your best prompt from today
+2. Try it with three different tasks
+3. Document where it succeeds/fails
+4. Bring printed results tomorrow
+
+### Optional Challenge
+Get AI to admit it doesn't know something!
+
+See you tomorrow at 9:00!

@@ -1,0 +1,1112 @@
+=== DAY 1 SESSION 1 ===
+=== FILE: basic/day1-1.qmd ===
+---
+title: "Day 1 - Session 1: Welcome and Getting Started"
+subtitle: "Can we control AI output?"
+author: 
+  - "Dr Brian Ballsun-Stanton"
+  - "Dr Sebastian Busse"
+date: "8 September 2025"
+format:
+  revealjs:
+    slide-number: true
+    chalkboard: true
+    theme: [default, ../reveal-custom.scss]
+    footer: "AI Summercamp 2025 - Basic Course"
+    preview-links: auto
+    transition: slide
+    background-transition: fade
+    highlight-style: github
+    navigation-mode: vertical
+---
+
+
+
+## Welcome to AI Summercamp!
+
+### Today's Big Question
+**Can we control AI output?**
+
+### This Morning
+- Get to know each other
+- Set up our tools
+- Define your learning goals with AI assistance
+- Start building our shared "grimoire"
+
+---
+
+## What We'll Learn This Session
+
+By the end of this morning, you will be able to:
+
+- **Do**: Navigate Conceptboard and connect to AI tools
+- **Explain**: What a "grimoire" is and why we're building one
+- **Create**: A refined set of personal learning goals using AI
+
+---
+
+## Our Journey This Week
+
+### Monday: Can we control AI output?
+### Tuesday: How do we populate the context window?
+### Wednesday: What can we verify?
+### Thursday: When do things break?
+### Friday: How do we work sustainably?
+
+Each day builds on the last - we're learning both skills AND judgment.
+
+
+---
+
+## Introductions (20 min)
+
+On the Conceptboard:
+1. Write your name and background
+2. Add one question you have about AI
+3. Put a +1 on questions you share
+
+Let's learn who's in the room and what we're curious about.
+
+---
+
+## The Grimoire Concept
+
+**What**: Our collective spellbook of prompts
+**Why**: Learn from each other's experiments
+**How**: Document, annotate, iterate
+
+Throughout the week:
+- Save your prompts
+- Note what worked/failed  
+- Share discoveries
+- Build on others' work
+
+---
+
+## Technical Setup
+
+### Sticky note protocol
+
+On your desk is a green and a pink sticky note. 
+
+Green: "I am done with the task"
+Pink: "I would like help"
+Nothing: "I am happily working away, please wait for me."
+
+### Getting Connected
+1. Check your email for an API key
+2. Open chatcraft.org
+3. Enter your API key in the settings menu
+4. Connect to Claude Sonnet 4
+
+If you have an API key in your email put up a green sticky note now.
+
+---
+
+## Exercise: Ask Me One Question at a Time
+
+Your first real AI interaction! We'll use this prompt:
+
+[Prompt template to be added]
+
+The AI will interview you to help refine your learning goals for the week. Notice:
+- How it builds understanding gradually
+- Which questions are helpful vs. not
+- How your answers shape its questions
+
+---
+
+## What's Next?
+
+### After the Break
+- System prompts and control
+- The "Drunk Tutor" problem
+- Beginning our annotation practice
+
+### Throughout the Week
+- Daily "Show me your prompts" discussions
+- Building complexity gradually
+- Developing your judgment alongside skills
+
+---
+
+## Resources
+
+- Conceptboard: [Link]
+- ChatCraft: [Link]
+- Course materials: [Link]
+- Questions? Ask anytime!
+
+
+=== DAY 1 SESSION 2 ===
+=== FILE: basic/day1-2.qmd ===
+---
+title: "Day 1 - Session 2: The 'Confident' Assistant"
+subtitle: "System prompts and the drunk tutor problem"
+author: 
+  - "Dr Brian Ballsun-Stanton"
+  - "Dr Sebastian Busse"
+date: "8 September 2025"
+format:
+  revealjs:
+    slide-number: true
+    chalkboard: true
+    theme: [default, ../reveal-custom.scss]
+    footer: "AI Summercamp 2025 - Basic Course"
+    preview-links: auto
+    transition: slide
+    background-transition: fade
+    highlight-style: github
+    navigation-mode: vertical
+---
+## Welcome Back!
+
+### Where We're Going
+- Control output style with system prompts
+- Discover the "drunk tutor" problem
+- Build our jargon-busting glossary
+- Start our annotation practice
+
+---
+
+## What We'll Learn This Session
+
+By the end of today, you will be able to:
+
+- **Demonstrate**: How system prompts change style but not accuracy
+- **Explain**: Why AI confidence doesn't signal correctness
+- **Identify**: Marketing fluff vs. technical necessity in AI terminology
+
+---
+
+## Exercise: System Prompts and Copy Editing (35 min)
+
+### Your Task
+1. Find a page of your own writing (email, report, anything)
+2. Ask Claude to copy edit it three times with different system prompts
+3. Compare what changes and what doesn't
+
+### System Prompt Variations
+
+TODO
+
+### User prompt
+
+TODO
+
+Put up a green sticky when you've completed all three variations. Pink sticky if you need a hand.
+
+---
+
+## What Did You Notice?
+
+### Style Changes
+- Tone and register shift dramatically
+- Emoji density varies
+- Formality adjusts
+
+### What Stays Same
+- Factual claims (right or wrong)
+- Core suggestions
+- Confidence level
+
+---
+
+## The Drunk Tutor Problem (15 min)
+
+> "Always confident, usually correct"
+
+### What This Means
+- No correlation between tone and truth
+- Professional language can mask errors
+- Confidence remains constant regardless of knowledge
+
+### Why This Matters
+You cannot use style as a proxy for accuracy.
+
+---
+
+## Confabulation in action
+
+(TODO LLM lecture slides "General Purpose Transformer" example)
+
+---
+
+## Jargon Busting (20 min)
+
+### Let's Build Our Glossary
+
+On the Conceptboard, add terms you've encountered:
+- LLM, API, token, context window...
+- Hallucination, temperature, fine-tuning...
+- AGI, singularity, emergence...
+
+Together we'll sort:
+✓ Technical necessities  
+✗ Marketing buzzwords  
+? Contested concepts
+
+---
+
+## Your First Annotation Task
+
+### Tonight's Homework
+1. Read: "ChatGPT is Bullshit" (Hicks 2024)
+   - https://link.springer.com/article/10.1007/s10676-024-09775-5
+2. Use the following prompt to help with the paper:
+
+> Hi Claude.
+> Today is the first day of class. My teacher assigned me ChatGPT is Bullshit by Hicks et al to read. Can you help me work through this text, section by section, and talk with me about each section. My teacher said to get you to force me to explain what the point of each section is before we continue. Specifically, ask me one pointed and specific question at a time until you think that I understand the section at hand. My first language is German, so please provide definitions in both languages for key terms and concepts, especially where it looks like I don't understand.
+> To begin, functionally decompose this task and give me a readback of our interaction patterns.
+
+3. Print and annotate your prompts:
+   - Pink highlighter: what didn't work
+   - Blue highlighter: what was effective
+   - Pen: notes on why
+
+### Tomorrow Morning
+We'll share these in "Show me your prompts!"
+
+---
+
+## Looking Ahead
+
+### Tomorrow Morning: Basic Prompting
+- Your first "Show me your prompts" session
+- Rules of thumb for effective prompting
+- Building context windows intentionally
+
+### Tomorrow Midday: Metaprompting
+- Getting AI to write its own prompts
+- The epistemic humility problem
+- Why AI can't judge its own capabilities
+
+---
+
+### Answering the day's question
+
+**Can we control AI output?**
+
+We can control AI output by:
+* Being mindful of our prompts
+* Giving it scaffolding 
+
+1. **Control exists** - but only over style and approach
+2. **Confidence is constant** - regardless of correctness
+3. **Your judgment matters** - AI won't tell you when it's wrong
+4. **Scaffolding** - Make sure the AI knows what you want
+5. **Utility comes from giving it enough input** - It does well when it takes a lot of text and reduces it to less text
+
+### Remember
+The goal isn't to memorize perfect prompts.
+It's to develop intuition about what works and why.
+
+---
+
+## Sticky Note Feedback
+
+* On your green sticky, write one specific thing we did well today
+* On your pink sticky, write one specific thing we can improve for tomorrow
+
+---
+
+## Resources for Tonight
+
+- Paper link: https://link.springer.com/article/10.1007/s10676-024-09775-5
+- Annotation example: https://zenodo.org/records/15583013 page 11
+- Annotation guide: Focus on YOUR prompts, not AI output
+- Questions? Post in Conceptboard for tomorrow
+
+See you at 9:00 tomorrow with your annotated prompts!
+
+
+
+
+=== DAY 2 SESSION 1 ===
+=== FILE: basic/day2-1.qmd ===
+---
+title: "Day 2 - Session 1: Basic Prompting Foundations"
+subtitle: "How do we populate the context window effectively?"
+author: 
+  - "Dr Brian Ballsun-Stanton"
+  - "Dr Sebastian Busse"
+date: "9 September 2025"
+format:
+  revealjs:
+    slide-number: true
+    chalkboard: true
+    theme: [default, ../reveal-custom.scss]
+    footer: "AI Summercamp 2025 - Basic Course"
+    preview-links: auto
+    transition: slide
+    background-transition: fade
+    highlight-style: github
+    navigation-mode: vertical
+---
+
+## Good Morning!
+
+### Today's Big Question
+**How do we populate the context window effectively?**
+
+### This Morning
+- Share your annotated prompts
+- Learn basic prompting theory
+- Practice iterative questioning
+- Begin systematic annotation
+
+---
+
+## Show Me Your Prompts! (15 min)
+
+### Our First Sharing Session
+
+1. Who tried the homework prompt?
+2. What surprised you about the AI's questions?
+3. What did you highlight in pink (didn't work)?
+4. What did you highlight in blue (worked well)?
+5. What other prompts did you experiment with overnight?
+
+**Remember**: We learn from failures as much as successes
+
+---
+
+## What We'll Learn This Session
+
+By the end of this morning, you will be able to:
+
+- **Explain**: How iterative questioning builds context
+- **Identify**: Which AI questions advance vs. derail your work
+- **Track**: When prompts succeed vs. fail through annotation
+
+---
+
+## Basic Theory: Rules of Thumb
+
+### The Engineering Method
+"Solving problems using rules of thumb that cause the best change in a poorly understood situation using available resources" - Bill Hammack
+
+### For Prompting, This Means
+- We don't know exactly why things work
+- We develop local heuristics through practice
+- What works depends on context
+- Iteration beats perfection
+
+---
+
+## Key Prompting Principles
+
+### 1. Context is Everything
+The AI only knows what's in the current conversation
+
+### 2. Specificity Matters
+Vague instructions → vague outputs
+
+### 3. Iteration is Expected
+First attempts rarely perfect
+
+### 4. Structure Helps
+Break complex tasks into steps
+
+---
+
+## Exercise: Weakening the Prompt (15 min)
+
+### Remember Yesterday's Prompt?
+Take the "ask me one question at a time" prompt from yesterday.
+
+### Now Break It
+
+Try: "Help me figure out my goals for the week" without any of the setup.
+
+### Compare Results
+What changes? Put up green sticky when complete.
+
+---
+
+## What Makes Prompts Effective?
+
+### Good prompts
+- One task at a time
+- High scaffolding
+  - Is it clear what the intention of the conversation is?
+  - Is it clear what the register is?
+  - Are the answers easily falsifable?
+- Easily falsfiable
+
+### Bad Prompts
+- Generic
+- Fact based
+- Poorly populated context window
+- Multiple questions
+
+---
+
+## Annotation Practice (20 min)
+
+### On the Conceptboard
+
+With your conversation from the weakening exercise:
+
+1. **Your prompts**: Mark what instructed useful behavior
+2. **AI responses**: Note where it followed/ignored instructions
+3. **Patterns**: What words consistently trigger better responses?
+
+### Share with Your Neighbor
+Compare annotations - same patterns?
+
+---
+
+## The Context Window
+
+Think of it as a bucket:
+- Everything must fit inside
+- New information pushes out old
+- Quality matters more than quantity
+- You control what goes in
+
+Your prompts are the recipe for filling this bucket effectively.
+
+---
+
+## Exercise: Playing with GPT-2 (10 minutes)
+
+Go visit [mirror.zad-giessen.de/perplexity](https://mirror.zad-giessen.de/perplexity)
+
+We will talk about why the context window matters so much as you play with it.
+
+Other concepts:
+
+- Tokens
+- Temperature
+
+**Thou shalt not allow an error to live.**
+
+
+---
+
+## Looking Ahead
+
+### Today: Metaprompting
+- Can AI write its own prompts?
+- The blank page problem
+- Epistemic humility (or lack thereof)
+
+### Tomorrow: What Can We Verify?
+- Working with documents
+- Extracting vs. interpreting
+- Model differences matter
+
+---
+
+## Key Takeaways
+
+1. **Prompting is engineering** - rules of thumb, not laws
+2. **Iteration is normal** - expect to refine
+3. **Context accumulates** - each exchange builds on the last
+4. **Your judgment develops** - through annotation and reflection
+
+---
+
+## Before the Break
+
+- Save your annotated conversations
+- Add successful prompts to our grimoire
+- Think about: What patterns are you noticing?
+
+See you at 11:00 for metaprompting!
+
+
+=== DAY 2 SESSION 2 ===
+=== FILE: basic/day2-2.qmd ===
+---
+title: "Day 2 - Session 2: Metaprompting and the Blank Page Problem"
+subtitle: "When AI writes its own instructions"
+author: 
+  - "Dr Brian Ballsun-Stanton"
+  - "Dr Sebastian Busse"
+date: "9 September 2025"
+format:
+  revealjs:
+    slide-number: true
+    chalkboard: true
+    theme: [default, ../reveal-custom.scss]
+    footer: "AI Summercamp 2025 - Basic Course"
+    preview-links: auto
+    transition: slide
+    background-transition: fade
+    highlight-style: github
+    navigation-mode: vertical
+---
+
+## Welcome Back!
+
+### Where We're Going
+- Solve the blank page problem
+- Get AI to write prompts for itself
+- Discover what AI doesn't know it doesn't know
+- Understand epistemic humility (or lack thereof)
+
+---
+
+## What We'll Learn This Session
+
+By the end of this session, you will be able to:
+
+- **Analyze**: Evaluate quality of AI-generated prompts
+- **Use**: Metaprompting to overcome blank page paralysis
+- **Recognize**: When AI confidence misleads about its own capabilities
+
+---
+
+## The Blank Page Problem
+
+### We've All Been Here
+- Staring at an empty prompt box
+- "What do I even ask?"
+- Paralyzed by possibilities
+
+### The Solution?
+Get AI to help you figure out what to ask!
+
+---
+
+## Exercise: Metaprompting (45 min)
+
+### Your Task
+Choose a project you need help with (thesis chapter, presentation, report)
+
+### Prompt Template
+
+> Hi Claude. I need to [general task]. Please help me write a detailed prompt that I could give to an AI assistant to help with this task. Ask me one specific question at a time to gather the information you need to write an excellent prompt.
+
+### Then Use That Prompt!
+Copy the AI-generated prompt into a new conversation
+
+---
+
+## Annotate your prompts
+
+* What parts of your answers did it anchor on?
+* What parts of its prompt worked?
+* What parts of it prompt didn't work?
+
+---
+
+## What Did You Discover?
+
+### The Good
+- Helps structure thinking
+- Surfaces important details
+- Overcomes blank page paralysis
+
+### The Concerning
+- AI assumes it knows what's best
+- May add unnecessary complexity
+- Doesn't acknowledge its limitations
+
+---
+
+## Epistemic Humility: What AI Lacks (30 min)
+
+### The Core Problem
+AI cannot recognize what it doesn't know
+
+### Why This Matters
+- No "I don't know" in its vocabulary
+- Confidence remains constant
+- Invents plausible-sounding capabilities
+
+---
+
+## Research Findings
+
+### From "An Absence of Judgment"
+
+AI systems consistently:
+- Treat 2020 announcements as current programs
+- Build "implausibly positive" narratives
+- Overlook obvious contradictions
+- Maintain confidence throughout
+
+### The Pattern
+"Soft bullshit" - indifference to truth
+
+---
+
+## Testing Epistemic Limits
+
+### Quick Experiment
+Ask your AI:
+1. "What are your limitations?"
+2. "What can't you do well?"
+3. "When should I not use you?"
+
+### Notice
+- Generic disclaimers
+- No specific failure modes
+- Hedging without substance
+
+---
+
+## The Metaprompt Paradox
+
+### The Irony
+AI writing prompts for AI assumes:
+- It understands its own capabilities
+- It knows what makes prompts effective
+- It can evaluate prompt quality
+
+### But We've Seen
+None of these assumptions hold!
+
+---
+
+## Practical Implications
+
+### Use Metaprompting When
+- You need structure
+- Starting points help
+- You'll heavily edit the result
+
+### Don't Trust It When
+- It claims optimal approaches
+- It suggests complex frameworks
+- You need domain expertise
+
+---
+
+## Your Judgment Remains Central
+
+### Remember
+- AI-generated prompts are starting points
+- Your expertise shapes the conversation
+- Iteration based on results, not AI advice
+- You know your task better than AI
+
+---
+
+## Looking Ahead
+
+### Tomorrow Morning: File Handling
+- Working with documents
+- Extraction vs. interpretation
+- What can we verify?
+
+### Tomorrow Midday: Model Differences
+- Same prompt, different models
+- Understanding the "grain" of each service
+- When to use which model
+
+---
+
+### Answering the question
+
+**How do we populate the context window effectively?**
+
+* **Scaffolding**: Make sure it knows exatly what you want and how to get there
+* **Context**: Models require lots of context in their context window to work well.
+* **Deductive**: LLMs work best when they go from lots of text to less text.
+
+---
+
+### Takeaways
+
+1. **Metaprompting helps start** - but doesn't guarantee quality
+2. **AI lacks self-knowledge** - about its own capabilities
+3. **Epistemic humility absent** - constant confidence misleads
+4. **Your judgment essential** - AI won't tell you when it's wrong
+
+---
+
+## Tonight's Homework
+
+1. Take your best prompt from today
+2. Try it with three different tasks
+3. Document where it succeeds/fails
+4. Bring printed results tomorrow
+
+### Optional Challenge
+Get AI to admit it doesn't know something!
+
+See you tomorrow at 9:00!
+
+
+=== DAY 3 SESSION 1 ===
+=== FILE: basic/day3-1.qmd ===
+---
+title: "Day 3 - Session 1: File Handling and Source Work"
+subtitle: "What can we verify?"
+author: 
+  - "Dr Brian Ballsun-Stanton"
+  - "Dr Sebastian Busse"
+date: "10 September 2025"
+format:
+  revealjs:
+    slide-number: true
+    chalkboard: true
+    theme: [default, ../reveal-custom.scss]
+    footer: "AI Summercamp 2025 - Basic Course"
+    preview-links: auto
+    transition: slide
+    background-transition: fade
+    highlight-style: github
+    navigation-mode: vertical
+---
+
+## Good Morning!
+
+### Today's Big Question
+**What can we verify?**
+
+### This Morning
+- Share your metaprompting experiments
+- Learn how AI handles documents
+- Practice extracting vs. interpreting
+- Build an annotated bibliography entry
+
+---
+
+## Show Me Your Prompts! (15 min)
+
+### From Last Night's Homework
+
+1. Which tasks worked with your metaprompt?
+2. Which tasks failed? Why?
+3. Did anyone get AI to admit ignorance?
+4. What patterns are emerging in your annotations?
+
+What was the most interesting failure?
+
+---
+
+## What We'll Learn This Session
+
+By the end of this morning, you will be able to:
+
+- **Execute**: File upload process correctly
+- **Distinguish**: Between quotes and AI interpretation
+- **Verify**: Claims against source text using search
+
+---
+
+## File Upload Basics (25 min)
+
+### Common Misconceptions
+
+❌ AI "reads" like humans  
+❌ AI understands document structure  
+❌ AI remembers what it read  
+❌ Larger files = better understanding
+
+### What Actually Happens
+✓ Text extraction and chunking  
+✓ Statistical pattern matching  
+✓ Context window limitations  
+✓ No persistent memory
+
+---
+
+## Extraction vs. Interpretation
+
+**Extraction** (AI is good at this):
+- Finding specific quotes
+- Locating passages by vibe
+- Pulling out well-signalled claims
+- Following "find me" instructions
+
+**Interpretation** (AI struggles here):
+- Understanding context
+- Recognizing contradictions
+- Evaluating arguments
+- Knowing what's missing
+- **Summaries** (rather than shortening)
+
+---
+
+## Exercise: Annotated Bibliography (50 min)
+
+### Your Task
+Create an annotated bibliography entry in the style of https://zenodo.org/records/13999404
+ 
+
+* Follow the system and user prompts on page 95
+* Adjust for your research questions.
+* Make sure that it scaffolds and gives you feedback in the first response.
+
+
+---
+
+## Verification Practice
+
+### The Critical Step
+After AI provides quotes:
+
+1. **Ctrl+F** in the original document
+2. Find each quote exactly
+3. Check surrounding context
+4. Note any misrepresentations
+
+### What to Watch For
+- Partial quotes presented as complete
+- Context that changes meaning
+- "Nearby" text merged into quotes
+- Hallucinated citations
+
+---
+
+## What Makes Extraction Reliable?
+
+### Green Flags
+- Direct quotes **without** page numbers
+- Specific section header references
+- Verbatim text matches
+
+### Red Flags  
+- Paraphrasing presented as quotes
+- "The author argues" without quotes
+- Mixed quotes from different sections
+- Confidence about implications
+
+---
+
+## The Trust Paradox
+
+### Why This Exercise Builds Trust
+- Extraction is verifiable
+- Ctrl+F doesn't lie
+- Clear success/failure
+- Deductive not inductive
+
+### But Remember
+Trust in extraction ≠ trust in understanding
+
+---
+
+## Looking Ahead
+
+### This Afternoon: Model Differences
+- Same prompt, multiple models
+- Understanding each model's "grain"
+- Choosing the right tool
+
+### Tomorrow: Breaking Things
+- Intentional failure exploration
+- Edge cases and confabulation
+- Understanding limits
+
+---
+
+## Key Takeaways
+
+1. **Extraction is reliable** - when verifiable
+2. **Interpretation needs scrutiny** - always check
+3. **Ctrl+F is your friend** - verification matters
+4. **Quotes ≠ understanding** - AI finds, you evaluate
+
+---
+
+## Before the Break
+
+- Complete your bibliography entry
+- Verify all quotes in original
+- Note what AI got wrong
+- Add all prompts to grimoire
+- Read how everyone else customised the task
+
+See you at 11:00 for model comparison!
+
+
+
+=== DAY 3 SESSION 2 ===
+=== FILE: basic/day3-2.qmd ===
+---
+title: "Day 3 - Session 2: Judgment, Bias, and Inductive Reasoning"
+subtitle: "Building Evals and looking at different modes of engagement"
+author: 
+  - "Dr Brian Ballsun-Stanton"
+  - "Dr Sebastian Busse"
+date: "10 September 2025"
+format:
+  revealjs:
+    slide-number: true
+    chalkboard: true
+    theme: [default, ../reveal-custom.scss]
+    footer: "AI Summercamp 2025 - Basic Course"
+    preview-links: auto
+    transition: slide
+    background-transition: fade
+    highlight-style: github
+    navigation-mode: vertical
+---
+
+
+
+
+### Lecture
+
+* Absence of Judgement / epistemic humility, what does judgement entail?
+
+### Activity - Zendo
+
+### Discussion: Building our own evals
+
+* Session 5 \- morning \- problems and biases  
+  * What does “judgement” entail?  
+    * Activity: Zendo  
+
+### Activity - Roleplaying
+
+  * Roleplaying and scenarios  
+  * Activity: Roleplay lite (not using sillytavern, but just setting up the scenario for legal context)  
+
+
+
+### End of day sticky note feedback
+1 thing we did well
+1 thing to improve for tomorrow
+
+
+=== DAY 4 SESSION 1 ===
+=== FILE: basic/day4-1.qmd ===
+---
+title: "Day 4 - Session 1: When AI helps vs. when it replaces thinking"
+subtitle: "Organization and Editing"
+author: 
+  - "Dr Brian Ballsun-Stanton"
+  - "Dr Joss von Hadeln"
+date: "11 September 2025"
+format:
+  revealjs:
+    slide-number: true
+    chalkboard: true
+    theme: [default, ../reveal-custom.scss]
+    footer: "AI Summercamp 2025 - Basic Course"
+    preview-links: auto
+    transition: slide
+    background-transition: fade
+    highlight-style: github
+    navigation-mode: vertical
+---
+Teaching with: Joss
+
+
+### Day goals and outline
+
+### Show me your prompts! / Grimoire maintenence  
+
+
+
+### Activity - AI for idea organisation  
+    * Activity: Building an outline out of a pile of quotes  
+
+### Lecture: Successful Failure
+  * How can we break it?
+  - What do we learn from faillure?
+  (and why)
+
+### Activity - Make RAG fail, make AI fail
+
+
+
+
+
+=== DAY 4 SESSION 2 ===
+=== FILE: basic/day4-2.qmd ===
+---
+title: "Day 4 - Session 2: How to keep up"
+subtitle: "Leveraging the literature and navigating endless change"
+author: 
+  - "Dr Brian Ballsun-Stanton"
+  - "Dr Joss von Hadeln"
+date: "11 September 2025"
+format:
+  revealjs:
+    slide-number: true
+    chalkboard: true
+    theme: [default, ../reveal-custom.scss]
+    footer: "AI Summercamp 2025 - Basic Course"
+    preview-links: auto
+    transition: slide
+    background-transition: fade
+    highlight-style: github
+    navigation-mode: vertical
+---
+
+### Discussion: How to keep up
+
+* Who do I read?
+* RSS reader
+* How do I evaluate new models?
+
+### Discussion: Reading the terms of service
+
+### Discussion: And the judge was not amused
+
+  * Discussion of “And the judge was not amused” / [Australian version](https://www.austlii.edu.au/cgi-bin/viewdoc/au/cases/cth/FedCFamC2F/2024/957.html)   
+
+
+
+
+### End of day sticky note feedback
+1 thing we did well
+1 thing to improve for tomorrow
+
+
+=== DAY 5 SESSION 1 ===
+=== FILE: basic/day5-1.qmd ===
+---
+title: "Day 5 - Session 1: Scaling to Projects"
+subtitle: "Context and Iteration"
+author: 
+  - "Dr Brian Ballsun-Stanton"
+  - "Dr Joss von Hadeln"
+date: "12 September 2025"
+format:
+  revealjs:
+    slide-number: true
+    chalkboard: true
+    theme: [default, ../reveal-custom.scss]
+    footer: "AI Summercamp 2025 - Basic Course"
+    preview-links: auto
+    transition: slide
+    background-transition: fade
+    highlight-style: github
+    navigation-mode: vertical
+---
+
+
+
+=== DAY 5 SESSION 2 ===
+=== FILE: basic/day5-2.qmd ===
+---
+title: "Day 5 - Session 2: Synthesis and Next Steps"
+subtitle: "What have we learned?"
+author: 
+  - "Dr Brian Ballsun-Stanton"
+  - "Dr Joss von Hadeln"
+date: "12 September 2025"
+format:
+  revealjs:
+    slide-number: true
+    chalkboard: true
+    theme: [default, ../reveal-custom.scss]
+    footer: "AI Summercamp 2025 - Basic Course"
+    preview-links: auto
+    transition: slide
+    background-transition: fade
+    highlight-style: github
+    navigation-mode: vertical
+---
+
+
+### Long Discussion: What should we teach the next time we run this class?
+
+
+
+
+Questions, answers, discussion.
+
+Where to go next.
+
+

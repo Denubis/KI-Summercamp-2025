@@ -1,6 +1,6 @@
 ---
-title: "Day 3 - Session 1: Misconceptions and the grain of different models"
-subtitle: "Deductive work and understanding how model choices differ"
+title: "Day 3 - Session 1: File Handling and Source Work"
+subtitle: "What can we verify?"
 author: 
   - "Dr Brian Ballsun-Stanton"
   - "Dr Sebastian Busse"
@@ -17,19 +17,165 @@ format:
     highlight-style: github
     navigation-mode: vertical
 ---
-### Show me your prompts! / Grimoire maintenence 
+
+## Good Morning!
+
+### Today's Big Question
+**What can we verify?**
+
+### This Morning
+- Share your metaprompting experiments
+- Learn how AI handles documents
+- Practice extracting vs. interpreting
+- Build an annotated bibliography entry
+
+---
+
+## Show Me Your Prompts! (15 min)
+
+### From Last Night's Homework
+
+1. Which tasks worked with your metaprompt?
+2. Which tasks failed? Why?
+3. Did anyone get AI to admit ignorance?
+4. What patterns are emerging in your annotations?
+
+What was the most interesting failure?
+
+---
+
+## What We'll Learn This Session
+
+By the end of this morning, you will be able to:
+
+- **Execute**: File upload process correctly
+- **Distinguish**: Between quotes and AI interpretation
+- **Verify**: Claims against source text using search
+
+---
+
+## File Upload Basics (25 min)
+
+### Common Misconceptions
+
+❌ AI "reads" like humans  
+❌ AI understands document structure  
+❌ AI remembers what it read  
+❌ Larger files = better understanding
+
+### What Actually Happens
+✓ Text extraction and chunking  
+✓ Statistical pattern matching  
+✓ Context window limitations  
+✓ No persistent memory
+
+---
+
+## Extraction vs. Interpretation
+
+**Extraction** (AI is good at this):
+- Finding specific quotes
+- Locating passages by vibe
+- Pulling out well-signalled claims
+- Following "find me" instructions
+
+**Interpretation** (AI struggles here):
+- Understanding context
+- Recognizing contradictions
+- Evaluating arguments
+- Knowing what's missing
+- **Summaries** (rather than shortening)
+
+---
+
+## Exercise: Annotated Bibliography (50 min)
+
+### Your Task
+Create an annotated bibliography entry in the style of https://zenodo.org/records/13999404
+ 
+
+* Follow the system and user prompts on page 95
+* Adjust for your research questions.
+* Make sure that it scaffolds and gives you feedback in the first response.
 
 
-### Activity - build annotated bibliography entry
-  * Pull quotes out of a document to build tailored discussion as per ancient history caligula exercise
+---
 
-### Lecture - common misconceptions and useful approaches
-* Training is not chatting
-* Calculator for words
-* What knobs can we control?
-* Lots of text to less text
+## Verification Practice
 
-### Activity - Playing with different models
+### The Critical Step
+After AI provides quotes:
 
-* Gemini 2.5 pro for transcription
-* Getting 3 different models to ask pointed questions
+1. **Ctrl+F** in the original document
+2. Find each quote exactly
+3. Check surrounding context
+4. Note any misrepresentations
+
+### What to Watch For
+- Partial quotes presented as complete
+- Context that changes meaning
+- "Nearby" text merged into quotes
+- Hallucinated citations
+
+---
+
+## What Makes Extraction Reliable?
+
+### Green Flags
+- Direct quotes **without** page numbers
+- Specific section header references
+- Verbatim text matches
+
+### Red Flags  
+- Paraphrasing presented as quotes
+- "The author argues" without quotes
+- Mixed quotes from different sections
+- Confidence about implications
+
+---
+
+## The Trust Paradox
+
+### Why This Exercise Builds Trust
+- Extraction is verifiable
+- Ctrl+F doesn't lie
+- Clear success/failure
+- Deductive not inductive
+
+### But Remember
+Trust in extraction ≠ trust in understanding
+
+---
+
+## Looking Ahead
+
+### This Afternoon: Model Differences
+- Same prompt, multiple models
+- Understanding each model's "grain"
+- Choosing the right tool
+
+### Tomorrow: Breaking Things
+- Intentional failure exploration
+- Edge cases and confabulation
+- Understanding limits
+
+---
+
+## Key Takeaways
+
+1. **Extraction is reliable** - when verifiable
+2. **Interpretation needs scrutiny** - always check
+3. **Ctrl+F is your friend** - verification matters
+4. **Quotes ≠ understanding** - AI finds, you evaluate
+
+---
+
+## Before the Break
+
+- Complete your bibliography entry
+- Verify all quotes in original
+- Note what AI got wrong
+- Add all prompts to grimoire
+- Read how everyone else customised the task
+
+See you at 11:00 for model comparison!

@@ -39,6 +39,7 @@ format:
 2. What surprised you about the AI's questions?
 3. What did you highlight in pink (didn't work)?
 4. What did you highlight in blue (worked well)?
+5. What other prompts did you experiment with overnight?
 
 **Remember**: We learn from failures as much as successes
 
@@ -54,7 +55,7 @@ By the end of this morning, you will be able to:
 
 ---
 
-## Basic Theory: Rules of Thumb (20 min)
+## Basic Theory: Rules of Thumb
 
 ### The Engineering Method
 "Solving problems using rules of thumb that cause the best change in a poorly understood situation using available resources" - Bill Hammack
@@ -89,13 +90,8 @@ Break complex tasks into steps
 Take the "ask me one question at a time" prompt from yesterday.
 
 ### Now Break It
-Remove these key words:
-- "pointed"
-- "specific" 
-- "critical"
-- "one at a time"
 
-Try: "Help me figure out my goals for the week"
+Try: "Help me figure out my goals for the week" without any of the setup.
 
 ### Compare Results
 What changes? Put up green sticky when complete.
@@ -107,6 +103,9 @@ What changes? Put up green sticky when complete.
 ### Good prompts
 - One task at a time
 - High scaffolding
+  - Is it clear what the intention of the conversation is?
+  - Is it clear what the register is?
+  - Are the answers easily falsifable?
 - Easily falsfiable
 
 ### Bad Prompts
@@ -144,7 +143,7 @@ Your prompts are the recipe for filling this bucket effectively.
 
 ---
 
-## Playing with GPT-2
+## Exercise: Playing with GPT-2 (10 minutes)
 
 Go visit [mirror.zad-giessen.de/perplexity](https://mirror.zad-giessen.de/perplexity)
 
@@ -154,6 +153,9 @@ Other concepts:
 
 - Tokens
 - Temperature
+
+**Thou shalt not allow an error to live.**
+
 
 ---
 

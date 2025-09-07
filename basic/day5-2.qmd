@@ -17,13 +17,7 @@ format:
     highlight-style: github
     navigation-mode: vertical
 ---
-### Lecture, Broad understanding of terminology
-Working through https://rentry.co/samplers#top-p
 
-### Activity - Working with other interfaces
-  * Activity: Show how sillytavern can enhance from a classroom perspective  
-  * OpenWebUI
-  * Various services
 
 ### Long Discussion: What should we teach the next time we run this class?
 

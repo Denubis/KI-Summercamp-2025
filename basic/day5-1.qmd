@@ -17,16 +17,3 @@ format:
     highlight-style: github
     navigation-mode: vertical
 ---
-Teaching with: Joss
-
-### Day goals and outline
-
-### Show me your prompts! 
-
-
-
-### Long Activity - context/feedback loops with claude and git - working on larger projects
-
-
-### Discussion - Finalising the grimoire
-

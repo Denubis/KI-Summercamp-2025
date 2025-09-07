@@ -19,9 +19,6 @@ format:
 ---
 ## Welcome Back!
 
-### Today's Focus
-**The paradox of confidence without accuracy**
-
 ### Where We're Going
 - Control output style with system prompts
 - Discover the "drunk tutor" problem
@@ -144,15 +141,30 @@ We'll share these in "Show me your prompts!"
 
 ---
 
-## Key Takeaways
+### Answering the day's question
 
-1. **Control exists** - but only over style and approach, not accuracy
+**Can we control AI output?**
+
+We can control AI output by:
+* Being mindful of our prompts
+* Giving it scaffolding 
+
+1. **Control exists** - but only over style and approach
 2. **Confidence is constant** - regardless of correctness
 3. **Your judgment matters** - AI won't tell you when it's wrong
+4. **Scaffolding** - Make sure the AI knows what you want
+5. **Utility comes from giving it enough input** - It does well when it takes a lot of text and reduces it to less text
 
 ### Remember
 The goal isn't to memorize perfect prompts.
 It's to develop intuition about what works and why.
+
+---
+
+## Sticky Note Feedback
+
+* On your green sticky, write one specific thing we did well today
+* On your pink sticky, write one specific thing we can improve for tomorrow
 
 ---
 
