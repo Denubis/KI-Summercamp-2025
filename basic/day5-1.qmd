@@ -3,7 +3,6 @@ title: "Day 5 - Session 1: Breaking Things Systematically"
 subtitle: "Finding where and why AI fails"
 author: 
   - "Dr Brian Ballsun-Stanton"
-  - "Dr Joss von Hadeln"
 date: "12 September 2025"
 format:
   revealjs:

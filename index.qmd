@@ -74,26 +74,6 @@ Throughout the week, we build a collective "spellbook" of prompts through:
 - **Day 4:** SillyTavern & Corpus Linguistics
 - **Day 5:** Project Work & Crumple Zone
 
-## Evening Events
-
-
-
-### Legal Perspectives on AI
-**Dr. Sophie Garling & Yvonne Roßmann** (JUN Legal GmbH)  
-*"Generative KI: Plagiat auf Knopfdruck? – Zwischen Urheberrecht und Innovation"*  
-Tuesday, 16 September, 17:00-19:00  
-Margarete-Bieber-Saal
-
-## Afternoon Workshops
-
-All workshops are open without registration:
-
-- **KI im Alltag: Sehen & verstehen** - Tue, 09.09, 14:00-17:30
-- **VR trifft KI** - Thu, 11.09, 14:00-16:30
-- **Literaturrecherche und Antragsstellung mit KI** - Mon, 15.09, 14:00-16:30
-- **KI-gestützt zum Datenmanagementplan** - Tue, 16.09, 14:00-16:30
-- **Reflexionsorientierter Unterricht in der KI-Welt** - Wed, 17.09, 14:00-17:30
-- **Gestalten mit KI** - Thu, 18.09, 14:00-17:30
 
 ## Research Week (22-26 September)
 
@@ -104,5 +84,3 @@ Individual consultation on AI in research with the summer camp team.
 **Dr. Brian Ballsun-Stanton**  
 Macquarie University  
 📧 [brian.ballsun-stanton@mq.edu.au](mailto:brian.ballsun-stanton@mq.edu.au)
-
-**Official Website:** [AI Summercamp 2025 at DiML](https://www.uni-giessen.de/en/faculties/diml/media/aisummercamp2025/aisummercamp2025)

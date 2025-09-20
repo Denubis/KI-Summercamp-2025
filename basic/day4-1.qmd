@@ -3,7 +3,6 @@ title: "Day 4 - Session 1: Building Your Research Infrastructure"
 subtitle: "Managing state across conversations"
 author: 
   - "Dr Brian Ballsun-Stanton"
-  - "Dr Joss von Hadeln"
 date: "11 September 2025"
 format:
   revealjs:
@@ -22,7 +21,7 @@ format:
 ## Good Morning!
 
 ### Today's Big Question
-**When do things break?**
+**How *should* we work?**
 
 ### This Morning
 - Build infrastructure for complex projects

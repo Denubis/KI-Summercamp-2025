@@ -1,7 +1,7 @@
 ---
 title: "Basic Course - Week 1"
 subtitle: "AI Literacy Through Critical Interrogation"
-author: "Dr Brian Ballsun-Stanton & Dr Sebastian Busse"
+author: "Dr Brian Ballsun-Stanton"
 date: "September 8-12, 2025"
 format:
   html:

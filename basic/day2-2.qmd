@@ -3,7 +3,6 @@ title: "Day 2 - Session 2: Metaprompting and the Blank Page Problem"
 subtitle: "When AI writes its own instructions"
 author: 
   - "Dr Brian Ballsun-Stanton"
-  - "Dr Sebastian Busse"
 date: "9 September 2025"
 format:
   revealjs:
@@ -198,14 +197,22 @@ None of these assumptions hold!
 
 ---
 
+## Sticky Note Feedback
+
+* On your green sticky, write one specific thing we did well today
+* On your pink sticky, write one specific thing we can improve for tomorrow
+
+---
+
 ## Tonight's Homework
 
 1. Take your best prompt from today
 2. Try it with three different tasks
 3. Document where it succeeds/fails
-4. Bring printed results tomorrow
+4. Bring printed and annotated results tomorrow
 
 ### Optional Challenge
-Get AI to admit it doesn't know something!
+Get AI to admit it doesn't know something! (Does it?)
 
 See you tomorrow at 9:00!
+

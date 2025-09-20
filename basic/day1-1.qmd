@@ -3,7 +3,6 @@ title: "Day 1 - Session 1: Welcome and Getting Started"
 subtitle: "Can we control AI output?"
 author: 
   - "Dr Brian Ballsun-Stanton"
-  - "Dr Sebastian Busse"
 date: "8 September 2025"
 format:
   revealjs:

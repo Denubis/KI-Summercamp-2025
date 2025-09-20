@@ -3,7 +3,6 @@ title: "Day 2 - Session 1: Basic Prompting Foundations"
 subtitle: "How do we populate the context window effectively?"
 author: 
   - "Dr Brian Ballsun-Stanton"
-  - "Dr Sebastian Busse"
 date: "9 September 2025"
 format:
   revealjs:
@@ -106,7 +105,6 @@ What changes? Put up green sticky when complete.
   - Is it clear what the intention of the conversation is?
   - Is it clear what the register is?
   - Are the answers easily falsifable?
-- Easily falsfiable
 
 ### Bad Prompts
 - Generic
@@ -176,8 +174,8 @@ Other concepts:
 ## Key Takeaways
 
 1. **Prompting is engineering** - rules of thumb, not laws
-2. **Iteration is normal** - expect to refine
-3. **Context accumulates** - each exchange builds on the last
+2. **Iteration is required** - expect to refine
+3. **Context accumulates** - each exchange builds on the last. Do not allow errors to remain.
 4. **Your judgment develops** - through annotation and reflection
 
 ---
@@ -185,7 +183,8 @@ Other concepts:
 ## Before the Break
 
 - Save your annotated conversations
-- Add successful prompts to our grimoire
+- Add all prompts to our grimoire
+  - Let us know which ones worked and which ones didn't
 - Think about: What patterns are you noticing?
 
 See you at 11:00 for metaprompting!

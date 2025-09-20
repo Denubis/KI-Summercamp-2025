@@ -3,7 +3,6 @@ title: "Day 5 - Session 2: Synthesis and Next Steps"
 subtitle: "What have we learned?"
 author: 
   - "Dr Brian Ballsun-Stanton"
-  - "Dr Joss von Hadeln"
 date: "12 September 2025"
 format:
   revealjs:

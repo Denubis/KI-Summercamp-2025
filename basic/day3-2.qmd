@@ -3,7 +3,6 @@ title: "Day 3 - Session 2: Model Differences and the Grain of Services"
 subtitle: "Same prompt, different failures"
 author: 
   - "Dr Brian Ballsun-Stanton"
-  - "Dr Sebastian Busse"
 date: "10 September 2025"
 format:
   revealjs:

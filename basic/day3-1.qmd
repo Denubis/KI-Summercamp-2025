@@ -3,7 +3,6 @@ title: "Day 3 - Session 1: File Handling and Source Work"
 subtitle: "What can we verify?"
 author: 
   - "Dr Brian Ballsun-Stanton"
-  - "Dr Sebastian Busse"
 date: "10 September 2025"
 format:
   revealjs:
@@ -98,6 +97,9 @@ Create an annotated bibliography entry in the style of https://zenodo.org/record
 * Adjust for your research questions.
 * Make sure that it scaffolds and gives you feedback in the first response.
 
+### Content
+
+* Find 2-3 papers related to the research questions
 
 ---
 
